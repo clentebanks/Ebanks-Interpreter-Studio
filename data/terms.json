@@ -1,5 +1,4 @@
-// Generado automáticamente desde data/terms.csv. No editar manualmente.
-window.INTERPRETER_TERMS = [
+[
   {
     "id": 1,
     "en": "Shortness of breath",
@@ -432,4 +431,4 @@ window.INTERPRETER_TERMS = [
     "version": "1.0",
     "changeNotes": "Registro inicial"
   }
-];
+]

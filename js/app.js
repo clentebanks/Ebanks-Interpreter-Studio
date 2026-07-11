@@ -1,12 +1,13 @@
 (() => {
   "use strict";
-  const terms = window.INTERPRETER_TERMS;
+  const terms = window.INTERPRETER_TERMS.filter(term => term.publicationStatus === "Publicado" || term.publicationStatus === "Demo");
   const categories = ["Todos","Anatomía","Síntomas","Procedimientos","Medicamentos","Especialidades"];
   let query = "", category = "Todos", selected = terms[0], view = "dictionary", card = 0, revealed = false;
   let saved = JSON.parse(localStorage.getItem("is-saved-terms") || "[]");
   const $ = (selector) => document.querySelector(selector);
   const escape = (value) => String(value).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
-  const filtered = () => terms.filter(t => (category === "Todos" || t.category === category) && (!query || `${t.en} ${t.es} ${t.definition} ${t.abbreviation || ""}`.toLowerCase().includes(query.toLowerCase())));
+  const normalize = value => String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const filtered = () => terms.filter(t => (category === "Todos" || t.category === category) && (!query || normalize(`${t.en} ${t.es} ${t.definition} ${t.abbreviation || ""} ${t.synonymsEn || ""} ${t.synonymsEs || ""} ${t.spanishNeutral || ""} ${t.spanishUS || ""} ${t.spanishLatam || ""} ${t.regionalVariants || ""}`).includes(normalize(query))));
 
   function renderCategories(){ $("#categorias").innerHTML = categories.map(c => `<button class="${c===category?"selected":""}" data-category="${c}">${c}</button>`).join(""); }
   function renderList(){ const items = view === "saved" ? terms.filter(t => saved.includes(t.id)) : filtered(); $("#result-count").textContent=`${items.length} resultados`; $("#results-title").textContent=view==="saved"?"Mi lista":query?`Resultados para “${query}”`:"Términos esenciales"; $("#term-list").innerHTML=items.length?items.map(t=>`<button class="${selected.id===t.id?"current":""}" data-term="${t.id}"><span><strong>${escape(t.en)}</strong><small>${escape(t.es)}</small></span><em>${escape(t.category)}</em></button>`).join(""):`<div class="empty"><h3>No encontramos resultados</h3><p>Prueba otra palabra o selecciona “Todos”.</p></div>`; }

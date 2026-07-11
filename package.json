@@ -1,0 +1,9 @@
+{
+  "name": "ebanks-interpreter-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "terms": "node scripts/generate-terms.js",
+    "validate": "node scripts/generate-terms.js"
+  }
+}
