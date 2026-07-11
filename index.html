@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Preparación y consulta terminológica para intérpretes médicos de inglés y español.">
+  <title>Ebanks Interpreter Studio | Terminología médica bilingüe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header sticky-top">
+    <a class="brand" href="#inicio"><span>IS</span><strong>Ebanks Interpreter Studio</strong></a>
+    <nav aria-label="Navegación principal">
+      <button class="nav-btn active" data-view="dictionary">Diccionario</button>
+      <button class="nav-btn" data-scroll="categorias">Categorías</button>
+      <button class="nav-btn" data-view="practice">Práctica</button>
+      <button class="nav-btn" data-view="saved">Mis listas <b id="saved-count">0</b></button>
+    </nav>
+    <div class="language"><strong>ES</strong><span>|</span> EN</div>
+  </header>
+
+  <main>
+    <div id="dictionary-view">
+      <section class="hero" id="inicio">
+        <div class="container-xl hero-inner">
+          <p class="eyebrow">Preparación profesional para intérpretes médicos</p>
+          <h1 id="hero-title">Encuentra el término correcto.<br>Interpreta con confianza.</h1>
+          <p class="subtitle">Terminología médica inglés–español con contexto para estudio y preparación profesional.</p>
+          <form class="search" id="search-form" role="search">
+            <span aria-hidden="true">⌕</span>
+            <input id="search-input" type="search" placeholder="Busca en inglés, español o abreviatura..." aria-label="Buscar términos">
+            <button type="submit">Buscar</button>
+          </form>
+          <div class="categories" id="categorias" aria-label="Categorías"></div>
+        </div>
+      </section>
+
+      <section class="workspace container-xl">
+        <div class="results-panel">
+          <div class="results-head">
+            <div><span id="result-count">0 resultados</span><h2 id="results-title">Términos esenciales</h2></div>
+            <small>Contenido educativo de demostración</small>
+          </div>
+          <div class="term-list" id="term-list"></div>
+        </div>
+        <article class="term-card" id="term-card"></article>
+      </section>
+    </div>
+
+    <section class="practice-shell d-none" id="practice-view">
+      <div class="section-heading">
+        <span>Práctica rápida</span><h1>Refuerza tu vocabulario clínico.</h1>
+        <p>Estudia el término y revela su equivalente.</p>
+      </div>
+      <div class="flashcard" id="flashcard" role="button" tabindex="0"></div>
+      <div class="practice-controls"><button id="previous-card">← Anterior</button><button class="primary" id="next-card">Siguiente →</button></div>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>EN ↔ ES</strong><span>Búsqueda bidireccional</span></div>
+      <div><strong>Privado por diseño</strong><span>No ingreses datos de pacientes</span></div>
+      <div><strong>Preparación profesional</strong><span>No sustituye criterio clínico</span></div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>Ebanks Interpreter Studio</span><p>Creado por Clent Ebanks · Un producto de Ebanks Labs</p><small>Herramienta educativa. No ofrece diagnóstico, asesoramiento médico ni traducción automática de consultas.</small></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
