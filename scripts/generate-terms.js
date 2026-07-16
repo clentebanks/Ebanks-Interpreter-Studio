@@ -43,7 +43,7 @@ const records = rows.map((values, index) => Object.fromEntries(headers.map((head
   if (!allowedEntryTypes.has(item.entry_type)) errors.push(`Fila ${line}: tipo de entrada inválido.`);
   if (item.review_status === "Verificado" && (!item.reviewed_by || !item.review_date)) errors.push(`Fila ${line}: un término verificado necesita revisor y fecha.`);
   if (item.publication_status === "Publicado" && item.review_status !== "Verificado") errors.push(`Fila ${line}: solo un término Verificado puede publicarse.`);
-  if (!/^https?:\/\//.test(item.source_url)) errors.push(`Fila ${line}: fuente URL inválida.`);
+  if (!/^(https?:\/\/|documento-local:)/.test(item.source_url)) errors.push(`Fila ${line}: fuente inválida.`);
   if (!item.clinical_context) warnings.push(`Fila ${line}: falta contexto clínico.`);
   if (!item.pronunciation) warnings.push(`Fila ${line}: falta pronunciación.`);
   return {

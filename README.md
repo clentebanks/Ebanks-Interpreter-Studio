@@ -2,14 +2,14 @@
 
 Plataforma bilingüe de terminología, consulta rápida y práctica para intérpretes profesionales de inglés y español.
 
-**Ebanks Interpreter Studio** está diseñado para ayudar a intérpretes OPI y otros profesionales a localizar términos, abreviaturas y equivalencias con rapidez. La primera versión se enfoca en terminología médica y puede ampliarse posteriormente a seguros, finanzas, interpretación legal y otras especialidades.
+**Ebanks Interpreter Studio** está diseñado para ayudar a intérpretes OPI a localizar términos, abreviaturas y equivalencias con rapidez durante su preparación y consulta profesional. La terminología médica continúa como núcleo principal y ahora se complementa con seguros, trámites, pagos, servicios públicos y comunicación OPI.
 
 > **El término correcto, justo cuando lo necesitas.**
 
 ## Funciones
 
 - Búsqueda bidireccional en inglés y español.
-- Consulta de abreviaturas médicas.
+- Consulta de términos y abreviaturas médicas y administrativas.
 - Filtros por categorías.
 - Fichas terminológicas con definición y contexto.
 - Pronunciación escrita para términos en inglés.
@@ -78,6 +78,8 @@ Cuando termines de editar el CSV, ejecuta:
 npm run terms
 ```
 
+También puedes utilizar `npm run generate`; ambos comandos validan el archivo maestro y regeneran los archivos que consume el sitio.
+
 El sistema revisa campos obligatorios, identificadores y términos duplicados, estados de revisión, fuentes y fechas. Si todo está correcto, genera automáticamente:
 
 ```text
@@ -135,7 +137,7 @@ La estructura también admite tipos de entrada, varios significados, notas de co
 Ebanks Interpreter Studio es una herramienta educativa y de apoyo terminológico.
 
 - No introduzcas nombres, diagnósticos ni información identificable de pacientes.
-- La plataforma no graba ni traduce conversaciones médicas.
+- La plataforma no graba ni traduce conversaciones.
 - No sustituye al intérprete profesional.
 - No ofrece diagnósticos ni asesoramiento médico.
 - El contenido demostrativo requiere revisión profesional antes de utilizarse en producción.
@@ -144,7 +146,7 @@ Los favoritos se almacenan únicamente en el navegador del usuario mediante `loc
 
 ## Estado del proyecto
 
-Esta es una versión MVP con una colección pequeña de términos demostrativos. La meta inicial es construir una colección bilingüe verificada de 500 términos médicos.
+Esta versión contiene 84 fichas terminológicas: 12 registros iniciales y 72 términos adaptados de un glosario QA proporcionado para el proyecto. La meta es construir una colección bilingüe revisada para los principales contextos OPI, manteniendo el área médica como especialidad prioritaria.
 
 ## Hoja de ruta
 
