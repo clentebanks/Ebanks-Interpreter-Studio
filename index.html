@@ -15,6 +15,7 @@
       <button class="nav-btn active" data-view="dictionary">Diccionario</button>
       <button class="nav-btn" data-scroll="categorias">Categorías</button>
       <button class="nav-btn" data-view="practice">Práctica</button>
+      <button class="nav-btn" data-scroll="recursos">Recursos</button>
       <button class="nav-btn" data-view="saved">Mis listas <b id="saved-count">0</b></button>
     </nav>
     <div class="language"><strong>ES</strong><span>|</span> EN</div>
@@ -40,7 +41,7 @@
         <div class="results-panel">
           <div class="results-head">
             <div><span id="result-count">0 resultados</span><h2 id="results-title">Términos esenciales</h2></div>
-            <small>84 fichas terminológicas organizadas por contexto</small>
+            <small><span id="term-total">0</span> fichas terminológicas organizadas por contexto</small>
           </div>
           <div class="term-list" id="term-list"></div>
         </div>
@@ -56,6 +57,105 @@
       <div class="flashcard" id="flashcard" role="button" tabindex="0"></div>
       <div class="practice-controls"><button id="previous-card">← Anterior</button><button class="primary" id="next-card">Siguiente →</button></div>
     </section>
+
+
+      <section class="resources-section" id="recursos">
+        <div class="container-xl">
+          <div class="resources-heading">
+            <div>
+              <p class="eyebrow">Recursos rápidos para intérpretes</p>
+              <h2>Verifica información sin salir de tu flujo de trabajo.</h2>
+              <p>Enlaces externos útiles para consultar direcciones, medicamentos, términos legales, seguros, banca y vehículos en Estados Unidos.</p>
+            </div>
+          </div>
+
+          <div class="resources-grid">
+            <a class="resource-card" href="https://tools.usps.com/zip-code-lookup.htm" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">📍</span>
+              <div>
+                <small>Direcciones</small>
+                <h3>USPS ZIP Code Lookup</h3>
+                <p>Busca el código postal oficial por dirección, ciudad o estado.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a class="resource-card" href="https://www.unitedstateszipcodes.org/" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">🗺️</span>
+              <div>
+                <small>Direcciones</small>
+                <h3>United States ZIP Codes</h3>
+                <p>Consulta ZIP Codes, mapas, condados y datos de ubicación.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a class="resource-card" href="https://www.goodrx.com/" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">💊</span>
+              <div>
+                <small>Medicamentos</small>
+                <h3>GoodRx</h3>
+                <p>Busca medicamentos, presentaciones y precios de referencia en farmacias.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a class="resource-card" href="https://medlineplus.gov/spanish/" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">🩺</span>
+              <div>
+                <small>Médico</small>
+                <h3>MedlinePlus en español</h3>
+                <p>Información médica bilingüe sobre enfermedades, pruebas y medicamentos.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a class="resource-card" href="https://www.law.cornell.edu/wex" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">⚖️</span>
+              <div>
+                <small>Legal</small>
+                <h3>Cornell Wex</h3>
+                <p>Diccionario y enciclopedia jurídica gratuita de Estados Unidos.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a class="resource-card" href="https://www.healthcare.gov/glossary/" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">🏥</span>
+              <div>
+                <small>Seguros médicos</small>
+                <h3>HealthCare.gov Glossary</h3>
+                <p>Definiciones oficiales de cobertura, planes, deducibles y beneficios.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a class="resource-card" href="https://www.aba.com/about-us/routing-number" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">🏦</span>
+              <div>
+                <small>Bancos</small>
+                <h3>ABA Routing Number</h3>
+                <p>Referencia para identificar y explicar números de ruta bancaria.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a class="resource-card" href="https://vpic.nhtsa.dot.gov/decoder/" target="_blank" rel="noopener noreferrer">
+              <span class="resource-icon">🚗</span>
+              <div>
+                <small>Vehículos</small>
+                <h3>NHTSA VIN Decoder</h3>
+                <p>Decodifica el VIN y verifica información básica de un vehículo.</p>
+              </div>
+              <b aria-hidden="true">↗</b>
+            </a>
+          </div>
+
+          <p class="resources-note">
+            Estos sitios son recursos externos de consulta. Verifica siempre la información con la persona o institución correspondiente.
+          </p>
+        </div>
+      </section>
 
     <section class="trust-strip">
       <div><strong>EN ↔ ES</strong><span>Búsqueda bidireccional</span></div>
