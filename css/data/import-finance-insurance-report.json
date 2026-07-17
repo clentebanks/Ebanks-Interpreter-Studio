@@ -1,0 +1,17 @@
+{
+  "source": "Finance and Insurance Vocabulary PDF",
+  "pdfRowsDetected": 646,
+  "existingTermsBefore": 179,
+  "duplicatesMatched": 20,
+  "newTermsAdded": 626,
+  "totalTermsAfter": 805,
+  "scenarioCounts": {
+    "traffic-accident": 250,
+    "emergency-room": 57,
+    "court": 79,
+    "bank": 247,
+    "health-insurance": 23,
+    "police": 67,
+    "ambulance": 39
+  }
+}
