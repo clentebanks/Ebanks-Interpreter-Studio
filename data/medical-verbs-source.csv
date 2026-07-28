@@ -1,0 +1,96 @@
+source_row,original_english,original_spanish,normalized_english,normalized_spanish,action,resulting_id,notes
+1,Payment Arrangement,Arreglo de pago,Payment arrangement,Arreglo de pago,added,926,
+2,Paystubs,Talones de pago (de planilla),Pay stub (check),Talonario de cheque de nómina,updated_existing,365,Se normalizó la separación de pay stubs.
+3,Pessary,Pesario,Pessary,Pesario,added,927,
+4,Pesticides,Pesticidas,Pesticides,Pesticidas,added,928,
+5,Pint,Pinta,Pint,Pinta,added,929,
+6,Poison Ivy,Hiedra Venenosa,Poison ivy,Hiedra venenosa,added,930,
+7,Premium,Prima,Premium,Prima,updated_existing,661,Se consolidó con una ficha existente.
+8,Prescription,Receta médica,prescription / prescribe,receta / recetar,updated_existing,51,Se consolidó con una ficha existente.
+9,Prior Authorization,Autorización previa,Prior authorization,Autorización previa,added,931,
+10,Prognosis,Pronóstico,Prognosis,Pronóstico,added,932,
+11,Quarter / Trimester,Trimestre,Trimester (pregnancy),Trimestre,added,933,Se especificó el contexto de embarazo para no confundirlo con quarter financiero.
+12,Razor,Navaja / Rasuradora,Razor,Navaja / Rasuradora,added,934,
+13,Referral,Referido / Remision,Referral,Remisión / referido,added,935,
+14,Refill,Reabastecer,refill a prescription,resurtir / reabastecer un medicamento,updated_existing,54,Se consolidó con una ficha existente.
+15,Reschedule,Reprogramar,Reschedule,Reprogramar,added,936,
+16,Right handed,Diestro,Right-handed,Diestro / diestra,added,937,Se normalizó la forma con guion.
+17,Roaches,Cucarachas,Roaches,Cucarachas,added,938,
+18,Rx BIN number,Número de identificación de Beneficios para Recetas,Rx BIN number,Número BIN de beneficios de farmacia,added,939,
+19,Rx PCN number,Número de Control de Procesador de Recetas,Rx PCN number,Número PCN de control del procesador de recetas,added,940,
+20,Schedule,Programar / Calendario,schedule (verb),programar / agendar,updated_existing,39,Se consolidó con una ficha existente.
+21,SSI - Supplemental Security Income,Ingreso de Seguro Suplementario,SSI (Supplemental Security Income),Seguridad de Ingreso Suplementario,updated_existing,802,Se consolidó con una ficha existente.
+22,Strain,Hacer fuerza,Strain,Hacer fuerza,added,941,
+23,Ticks,Garrapatas,Ticks,Garrapatas,added,942,
+24,"Tier 1, 2, 3","Nivel 1, 2, 3","Tier 1, 2, 3","Nivel 1, 2, 3",added,943,
+25,Unearned Income,Ingreso No Devengado,Unearned income,Ingreso no devengado,added,944,
+26,Utilities,Servicios Públicos,utilities,servicios públicos,updated_existing,66,Se consolidó con una ficha existente.
+27,Vending Machine,Maquina dispensadora de golosinas,Vending machine,Máquina expendedora / dispensadora,added,945,
+28,Voucher,"Comprobante / Cupón, Vale",Voucher,Comprobante,updated_existing,453,Se consolidó con una ficha existente.
+29,Assist,Ayudar,Assist,Ayudar,added,946,
+30,Attend / Go to,Acudir / Asistir (a un lugar),Attend / Go to,Acudir / Asistir (a un lugar),added,947,
+31,Auscultate,Auscultar,Auscultate,Auscultar,added,948,
+32,Bleed,Sangrar,Bleed,Sangrar,added,949,
+33,Blow the nose,Soplarse la nariz,Blow your nose,Soplarse la nariz,added,950,
+34,Bottle Feed,Dar biberón,bottle-feed / baby bottle,dar biberón / biberón,updated_existing,31,Se consolidó con una ficha existente.
+35,Breastfeed,Dar pecho,breastfeeding,lactancia materna / amamantar,updated_existing,30,Se consolidó con una ficha existente.
+36,Burp,Eructar,Burp,Eructar,added,951,
+37,Call in the prescription,Enviar la receta,Call in a prescription,Enviar / llamar una receta a la farmacia,added,952,
+38,Calm down,Calmarse,Calm down,Calmarse,added,953,
+39,Chew,Masticar,Chew,Masticar,added,954,
+40,Conduct,Conducir / Llevar a cabo,Conduct,Conducir / Llevar a cabo,added,955,
+41,Crawl,Arrastrarse / Gatear,Crawl,Arrastrarse / Gatear,added,956,
+42,Deliver,"Entregar / Parir, Dar a luz",Deliver,Entregar / dar a luz,added,957,
+43,Desinfect,Desinfectar,Disinfect,Desinfectar,added,958,Se corrigió la grafía inglesa Desinfect → Disinfect.
+44,Diagnose,Diagnosticar,Diagnose,Diagnosticar,added,959,
+45,Dislocate / Dislodge,Dislocar,Dislocate / dislodge,Dislocar / desprender,added,960,
+46,Do surgery,Hacer una cirugía,Perform surgery,Hacer / realizar una cirugía,added,961,Se normalizó a Perform surgery.
+47,Draw blood,Sacar sangre,Draw blood,Sacar sangre,added,962,
+48,Examine,Examinar,see / examine (a patient),atender / examinar,updated_existing,49,Se consolidó con una ficha existente.
+49,Exhale,Exhalar,Exhale,Exhalar,added,963,
+50,Ejaculate,Eyacular,Ejaculate,Eyacular,added,964,
+51,Faint / Pass out,Desmayarse,Faint / pass out,Desmayarse,added,965,
+52,Fill medications,Surtir / Abastecer medicamentos,fill a prescription,surtir / preparar una receta,updated_existing,53,Se consolidó con una ficha existente.
+53,Frigidity,Frigidéz,Frigidity,Frigidez,added,966,Se corrigió la tilde incorrecta de la forma española.
+54,Frown,Fruncir el ceño,Frown,Fruncir el ceño,added,967,
+55,Gasp,Jadear,Gasp,Jadear,added,968,
+56,Get admitted,Ser ingresado,Get admitted,Ser ingresado,added,969,
+57,Get worse / Worsen,Empeorar,Get worse / Worsen,Empeorar,added,970,
+58,Give a shot / an injection,Poner una inyección,Give a shot / an injection,Poner / administrar una inyección,added,971,
+59,Hit / Strike (with / against),Golpear (con / contra),Hit / strike (with / against),Golpear (con / contra),added,972,
+60,Hold,Sostener / Aguantar,Hold,Sostener / Aguantar,added,973,
+61,Hold on (the line),Esperar en línea,Hold on (the line),Esperar en la línea,added,974,
+62,Increase,Incrementar / Subir,Increase,Incrementar / Subir,added,975,
+63,Inhale,Inhalar,Inhale,Inhalar,added,976,
+64,Inyect,Inyectar,Inject,Inyectar,added,977,Se corrigió la grafía inglesa Inyect → Inject.
+65,Keep down / Tolerate,Mantener / Tolerar (stomach),Keep down / tolerate,Retener / tolerar (alimentos o líquidos),added,978,
+66,Kneel,Arrodillarse,Kneel,Arrodillarse,added,979,
+67,Latch on,Agarrar el pecho (newborn),Latch on,Agarrarse al pecho,added,980,
+68,Lay down,Acostarse,Lie down,Acostarse,added,981,Se normalizó la instrucción a Lie down; Lay down se conserva como variante frecuente.
+69,Lay on your back / Lay back,Acostarse boca arriba,Lie on your back / lie back,Acostarse boca arriba,added,982,Se normalizó lay → lie para la posición del propio cuerpo.
+70,Lift,Levantar,Lift,Levantar,added,983,
+71,Limp,Cojear,Limp,Cojear,added,984,
+72,Loose Balance,Perder el equilibrio,Lose balance,Perder el equilibrio,added,985,Se corrigió loose → lose.
+73,Loose Consciousness,Perder el conocimiento,Lose consciousness,Perder el conocimiento,added,986,Se corrigió loose → lose.
+74,Lower / Decrease,Bajar / Disminuir,Lower / Decrease,Bajar / Disminuir,added,987,
+75,Make a fist,Apuñar la mano,Make a fist,Cerrar el puño,added,988,
+76,Masturbate,Masturbar,Masturbate,Masturbar,added,989,
+77,Miss a dosage,Perder / Olvidar una dosis,Miss a dose,Perder / olvidar una dosis,added,990,Se normalizó dosage → dose en esta expresión.
+78,Mix / Steer,Mezclar,Mix / stir,Mezclar,added,991,Steer se interpretó como una errata de stir y se conservó como forma de la fuente.
+79,Move backwards / Back up,Retroceder,Move backward / back up (body movement),Retroceder,added,992,Se especificó body movement para diferenciarlo de conducir un vehículo.
+80,Move forward,Avanzar / Ir hacia adelante,Move forward,Avanzar / ir hacia adelante,added,993,
+81,Move the bowels / Defecate,Defecar,Move the bowels / defecate,Defecar / evacuar,added,994,
+82,Prick / Poke,Puyar / Picar (con aguja),Prick / poke,Pinchar / picar (con aguja),added,995,
+83,Over eat,Comer demasiado,Overeat,Comer demasiado,added,996,Se normalizó over eat → overeat.
+84,Over exert,Hacer ejercicio / Esfuerzo en exceso,Overexert oneself,Hacer un esfuerzo excesivo,added,997,Se normalizó la expresión verbal.
+85,Page a doctor,Mensajear a un doctor,Page a doctor,Localizar / avisar al médico,added,998,
+86,Pass away / Die,Fallecer / Morir,Pass away / Die,Fallecer / Morir,added,999,
+87,Point out,Señalar / Indicar,Point out,Señalar / Indicar,added,1000,
+88,Pour,Verter / Echar,Pour,Verter / Echar,added,1001,
+89,Print out,Imprimir,Print out,Imprimir,added,1002,
+90,Punch,Golpear en la cara,Punch,Dar un puñetazo,added,1003,
+91,Push,Empujar / Pujar,Push,Empujar / pujar,added,1004,
+92,Quit smoking,Dejar de fumar,Quit smoking,Dejar de fumar,added,1005,
+93,Rave,Delirar / Desvariar,Rave,Delirar / desvariar,added,1006,
+94,Refer,Referir / Remitir,Refer,Referir / Remitir,added,1007,
+95,Inherit,Heredar,Inherit,Heredar,added,1008,

@@ -1,0 +1,105 @@
+﻿source_row,original_english,original_spanish,canonical_english,canonical_spanish,action,resulting_id,notes
+1,Transplant,Transplante,Transplant,Transplante,added,1009,Forma fuente conservada.
+2,Transvaginal Ultrasound,Ultrasonido Transvaginal,Transvaginal Ultrasound,Ultrasonido Transvaginal,added,1010,Forma fuente conservada.
+3,Twilight Anesthesia,Cedacion consciente,Twilight Anesthesia,Cedacion consciente,added,1011,Forma fuente conservada.
+4,Ultrasound,Ultrasonido,Ultrasound,Ultrasonido,added,1012,Forma fuente conservada.
+5,Upper Endoscopy,Endoscopia digestiva alta,Esophagogastroduodenoscopy,Esofagogastroduodenoscopia,updated_existing,823,Se consolidó con una ficha ya existente.
+6,Urine Test,Prueba de orina,Urine Test,Prueba de orina,added,1013,Forma fuente conservada.
+7,Uroculture/ Urine Culture,Urocultivo/ cultivo de orina,Uroculture/ Urine Culture,Urocultivo/ cultivo de orina,added,1014,Forma fuente conservada.
+8,Vaginal Douche,Lavado / ducha vaginal,Vaginal Douche,Lavado / ducha vaginal,added,1015,Forma fuente conservada.
+9,Vaginoplasty,Vaginoplastía,Vaginoplasty,Vaginoplastía,added,1016,Forma fuente conservada.
+10,Vital signs check,Revisión de Signos Vitales,Vital signs check,Revisión de Signos Vitales,added,1017,Forma fuente conservada.
+11,Wound Debridement,Desbridamiento de heridas,Wound Debridement,Desbridamiento de heridas,added,1018,Forma fuente conservada.
+12,Adhesive Tape,Cinta Adhesiva,medical tape,cinta adhesiva médica,updated_existing,47,Se consolidó con una ficha ya existente.
+13,Aid Button,Botón de ayuda,Aid Button,Botón de ayuda,added,1019,Forma fuente conservada.
+14,Artificial Nipple,Pezón artificial,Artificial Nipple,Pezón artificial,added,1020,Forma fuente conservada.
+15,Baby bottle,Biberón,bottle-feed / baby bottle,dar biberón / biberón,updated_existing,31,Se consolidó con una ficha ya existente.
+16,Baby car seat,Asiento de seguridad para bebés,Baby car seat,Asiento de seguridad para bebés,added,1021,Forma fuente conservada.
+17,Bandage,Vendaje,Bandage,Vendaje,added,1022,Forma fuente conservada.
+18,Bassinet,"Moises, cargador para bebé",Bassinet,"Moises, cargador para bebé",added,1023,Forma fuente conservada.
+19,Bedside Commode,Retrete portátil,Bedside Commode,Retrete portátil,added,1024,Forma fuente conservada.
+20,Blood pressure cuff,Manga para tomar la presión arterial,Blood pressure cuff,Manga para tomar la presión arterial,added,1025,Forma fuente conservada.
+21,Body lotion,Crema Corporal,Body lotion,Crema Corporal,added,1026,Forma fuente conservada.
+22,Booklet / handbook,Folleto,Booklet / handbook,Folleto / Manual,added,1027,Etiqueta contextual usada; forma fuente conservada.
+23,Boot,Bota,Boot (medical supply),Bota,added,1028,Etiqueta contextual usada; forma fuente conservada.
+24,Brace,Abrazadera,Brace,Abrazadera,added,1029,Forma fuente conservada.
+25,Breast pump,Extractor de leche materna,breast pump,extractor de leche materna,updated_existing,28,Se consolidó con una ficha ya existente.
+26,Bulb Syringe,Succionador nasal,Bulb Syringe,Succionador nasal,added,1030,Forma fuente conservada.
+27,Cane,Bastón,Cane,Bastón,added,1031,Forma fuente conservada.
+28,Cast,Yeso,Cast,Yeso,added,1032,Forma fuente conservada.
+29,Catheter,Catéter,Catheter,Catéter,added,1033,Forma fuente conservada.
+30,Clamps,Ganchos/ pinzas/ prensador,Clamps,Ganchos/ pinzas/ prensador,added,1034,Forma fuente conservada.
+31,Clips,Sujetadores,Clips,Sujetadores,added,1035,Forma fuente conservada.
+32,Coil (vascular),Espiral (vascular),Coil (vascular),Espiral (vascular),added,1036,Forma fuente conservada.
+33,Colostomy bags,Bolsas para colostomía,Colostomy bags,Bolsas para colostomía,added,1037,Forma fuente conservada.
+34,Compression Stockings,Medias de compresión,Compression Stockings,Medias de compresión,added,1038,Forma fuente conservada.
+35,Condom,Preservativo,Condom,Preservativo,added,1039,Forma fuente conservada.
+36,Container / Cup,Recipiente,Container / cup (for samples),Recipiente,added,1040,Etiqueta contextual usada; forma fuente conservada.
+37,Contraceptive Implant,Implante Anticonceptivo,Contraceptive Implant,Implante Anticonceptivo,added,1041,Forma fuente conservada.
+38,Contraceptives,Anticonceptivos,Contraceptives,Anticonceptivos,added,1042,Forma fuente conservada.
+39,Cotton balls,Algodones,Cotton balls,Algodones,added,1043,Forma fuente conservada.
+40,Cotton Swab/ Q-tip,Isopo,Cotton Swab/ Q-tip,Isopo,added,1044,Forma fuente conservada.
+41,Cough drops/ Lozenges,Caramelos o pastillas para la tos,Cough drops/ Lozenges,Caramelos o pastillas para la tos,added,1045,Forma fuente conservada.
+42,Cream,Crema,Cream,Crema,added,1046,Forma fuente conservada.
+43,Crib,Cuna,Crib,Cuna,added,1047,Forma fuente conservada.
+44,Crutches,Muletas,Crutches,Muletas,added,1048,Forma fuente conservada.
+45,Cup (for samples),Recipiente,Container / cup (for samples),Recipiente,consolidated_inside_import,1040,Se consolidó con la fila «Container / Cup» de la misma lista.
+46,Defibrillator,Desfibrilador,Defibrillator,Desfibrilador,added,1049,Forma fuente conservada.
+47,Deodorant,Desodorante,Deodorant,Desodorante,added,1050,Forma fuente conservada.
+48,Dressing (for wound),Apósito,Dressing (for wound),Apósito,added,1051,Forma fuente conservada.
+49,Ear plugs,Tapones antiruido para los oídos,Ear plugs,Tapones antiruido para los oídos,added,1052,Forma fuente conservada.
+50,Ear tubes,Tubos auditivos,Ear tubes,Tubos auditivos,added,1053,Forma fuente conservada.
+51,Electrode,Electrodo,Electrode,Electrodo,added,1054,Forma fuente conservada.
+52,Examination Table,Mesa para examinar,Examination Table,Mesa para examinar,added,1055,Forma fuente conservada.
+53,First aid kit,Estuche para primeros auxilios,First aid kit,Estuche para primeros auxilios,added,1056,Forma fuente conservada.
+54,Fistula,Fístula,Fistula,Fístula,added,1057,Forma fuente conservada.
+55,Floss,Hilo dental,Floss,Hilo dental,added,1058,Forma fuente conservada.
+56,Foam,Espuma / esponja,Foam,Espuma / esponja,added,1059,Forma fuente conservada.
+57,Foley Catheter,Catéter de Foley / Sonda Urinaria,Foley Catheter,Catéter de Foley / Sonda Urinaria,added,1060,Forma fuente conservada.
+58,Forceps,Pinzas / tenaza,Forceps,Pinzas / tenaza,added,1061,Forma fuente conservada.
+59,Gauze,Gaza,Gauze,Gaza,added,1062,Forma fuente conservada.
+60,Gloves,Guantes,Gloves,Guantes,added,1063,Forma fuente conservada.
+61,Glucose Monitor/ Glucometer,Glucómetro,Glucose Monitor/ Glucometer,Glucómetro,added,1064,Forma fuente conservada.
+62,Gown,Bata,Gown,Bata,added,1065,Forma fuente conservada.
+63,Handheld portable device,Dispositivo portátil manual,Handheld portable device,Dispositivo portátil manual,added,1066,Forma fuente conservada.
+64,Hand Sanitizer,Gel desinfectante de manos,Hand Sanitizer,Gel desinfectante de manos,added,1067,Forma fuente conservada.
+65,Handbook,Manual,Booklet / handbook,Folleto / Manual,consolidated_inside_import,1027,Se consolidó con la fila «Booklet / handbook» de la misma lista.
+66,Hearing aid,Aparato o dispositivo auditivo,Hearing aid,Aparato o dispositivo auditivo,added,1068,Forma fuente conservada.
+67,Holter Monitor,Monitor Holter,Holter Monitor,Monitor Holter,added,1069,Forma fuente conservada.
+68,Hot compress,Compresa Caliente,Hot compress,Compresa Caliente,added,1070,Forma fuente conservada.
+69,Humidifier,Humidificador,Humidifier,Humidificador,added,1071,Forma fuente conservada.
+70,Hydrogen Peroxide,Agua oxigenada,Hydrogen Peroxide,Agua oxigenada,added,1072,Forma fuente conservada.
+71,Ice Pack,Compresa fría,Ice Pack,Compresa fría,added,1073,Forma fuente conservada.
+72,Immunization Chart/ Records,"Expediente, Registro de Vacunas",Immunization Chart/ Records,"Expediente, Registro de Vacunas",added,1074,Forma fuente conservada.
+73,Incentive Spirometer,Espirômetro Incentivo,Incentive Spirometer,Espirômetro Incentivo,added,1075,Forma fuente conservada.
+74,Incubator (isolette),Incubadora,Incubator (isolette),Incubadora,added,1076,Forma fuente conservada.
+75,Iodine,Yodo,Iodine,Yodo,added,1077,Forma fuente conservada.
+76,IV Fluids,Líquidos intravenosos,IV Fluids,Líquidos intravenosos,added,1078,Forma fuente conservada.
+77,Lancets,Lancetas,Lancets,Lancetas,added,1079,Forma fuente conservada.
+78,Log / Diary,"Bitácora, registro, diario",Log / Diary,"Bitácora, registro, diario",added,1080,Forma fuente conservada.
+79,Lube,Lubricante,Lube,Lubricante,added,1081,Forma fuente conservada.
+80,Magnifying glass,Lupa,Magnifying glass,Lupa,added,1082,Forma fuente conservada.
+81,Mask,Mascarilla,Mask,Mascarilla,added,1083,Forma fuente conservada.
+82,Mattress,Colchón,Mattress,Colchón,added,1084,Forma fuente conservada.
+83,Medical Office,Consultorio médico,medical practice,consultorio / clínica,updated_existing,35,Se consolidó con una ficha ya existente.
+84,Menstrual pad,Toalla sanitaria,Menstrual pad,Toalla sanitaria,added,1085,Forma fuente conservada.
+85,Metal plate,Placa metálica,Metal plate,Placa metálica,added,1086,Forma fuente conservada.
+86,Microscope,Microscopio,Microscope,Microscopio,added,1087,Forma fuente conservada.
+87,Monitor,Monitor,Monitor,Monitor,added,1088,Forma fuente conservada.
+88,Moisturizing lotion,Crema humectante,Moisturizing lotion,Crema humectante,added,1089,Forma fuente conservada.
+89,Mouthwash,Enjuague bucal,Mouthwash,Enjuague bucal,added,1090,Forma fuente conservada.
+90,Nail clipper,Cortauñas,Nail clipper,Cortauñas,added,1091,Forma fuente conservada.
+91,Nails,Clavos/uñas,Nails,Clavos/uñas,added,1092,Forma fuente conservada.
+92,Nasal Spray,Atomizador nasal,Nasal Spray,Atomizador nasal,added,1093,Forma fuente conservada.
+93,Nebulizer,Nebulizador,Nebulizer,Nebulizador,added,1094,Forma fuente conservada.
+94,Neck Brace/ Neck immobilizer,Collarín / Collar Cervical/ Inmovilizador de cuello,Neck Brace/ Neck immobilizer,Collarín / Collar Cervical/ Inmovilizador de cuello,added,1095,Forma fuente conservada.
+95,NG Tube,Sonda Naso-gástrica,NG Tube,Sonda Naso-gástrica,added,1096,Forma fuente conservada.
+96,Ointment,Ungüento,Ointment,Ungüento,added,1097,Forma fuente conservada.
+97,Orthopedic shoes,Zapatos ortopédicos,Orthopedic shoes,Zapatos ortopédicos,added,1098,Forma fuente conservada.
+98,Otoscope,Otoscopio,Otoscope,Otoscopio,added,1099,Forma fuente conservada.
+99,Outpatient Procedure,Procedimiento Ambulatorio (Same day),Outpatient Procedure,Procedimiento Ambulatorio (Same day),added,1100,Forma fuente conservada.
+100,Oximeter,Oxímetro,Oximeter,Oxímetro,added,1101,Forma fuente conservada.
+101,Oxygen Tank,Tanque de oxígeno,Oxygen Tank,Tanque de oxígeno,added,1102,Forma fuente conservada.
+102,Pacemaker,Marcapasos,Pacemaker,Marcapasos,added,1103,Forma fuente conservada.
+103,Pacifier,Entretenedor o chupete para bebés,Pacifier,Entretenedor o chupete para bebés,added,1104,Forma fuente conservada.
+104,Prenatal Vitamins,Vitaminas Prenatales,Prenatal Vitamins,Vitaminas Prenatales,added,1105,Forma fuente conservada.

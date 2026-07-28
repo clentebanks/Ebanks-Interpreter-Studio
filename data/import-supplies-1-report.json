@@ -1,0 +1,768 @@
+{
+  "import_date": "2026-07-28",
+  "source": "Supplies 1 — Medical Terminology; 104 pares bilingües proporcionados por el usuario",
+  "source_rows": 104,
+  "records_before": 1007,
+  "new_records_added": 97,
+  "existing_records_updated_without_duplication": 5,
+  "source_rows_consolidated_inside_import": 2,
+  "records_after": 1104,
+  "id_range_added": [
+    1009,
+    1105
+  ],
+  "content_policy": "Se preservó la terminología de la lista proporcionada. No se realizó verificación médica externa ni se reemplazaron traducciones con conocimiento general.",
+  "disambiguations": [
+    {
+      "source_row": 22,
+      "original_english": "Booklet / handbook",
+      "original_spanish": "Folleto",
+      "canonical_english": "Booklet / handbook",
+      "canonical_spanish": "Folleto / Manual",
+      "reason": "Se distinguió el contexto médico o se combinaron traducciones repetidas; la forma original permanece en el archivo fuente."
+    },
+    {
+      "source_row": 23,
+      "original_english": "Boot",
+      "original_spanish": "Bota",
+      "canonical_english": "Boot (medical supply)",
+      "canonical_spanish": "Bota",
+      "reason": "Se distinguió el contexto médico o se combinaron traducciones repetidas; la forma original permanece en el archivo fuente."
+    },
+    {
+      "source_row": 36,
+      "original_english": "Container / Cup",
+      "original_spanish": "Recipiente",
+      "canonical_english": "Container / cup (for samples)",
+      "canonical_spanish": "Recipiente",
+      "reason": "Se distinguió el contexto médico o se combinaron traducciones repetidas; la forma original permanece en el archivo fuente."
+    }
+  ],
+  "updated_existing": [
+    {
+      "id": 823,
+      "source_row": 5,
+      "english": "Esophagogastroduodenoscopy",
+      "merged_source_term": "Upper Endoscopy"
+    },
+    {
+      "id": 47,
+      "source_row": 12,
+      "english": "medical tape",
+      "merged_source_term": "Adhesive Tape"
+    },
+    {
+      "id": 31,
+      "source_row": 15,
+      "english": "bottle-feed / baby bottle",
+      "merged_source_term": "Baby bottle"
+    },
+    {
+      "id": 28,
+      "source_row": 25,
+      "english": "breast pump",
+      "merged_source_term": "Breast pump"
+    },
+    {
+      "id": 35,
+      "source_row": 83,
+      "english": "medical practice",
+      "merged_source_term": "Medical Office"
+    }
+  ],
+  "consolidated_inside_import": [
+    {
+      "id": 1040,
+      "source_row": 45,
+      "english": "Cup (for samples)",
+      "merged_into_source_term": "Container / Cup"
+    },
+    {
+      "id": 1027,
+      "source_row": 65,
+      "english": "Handbook",
+      "merged_into_source_term": "Booklet / handbook"
+    }
+  ],
+  "added": [
+    {
+      "id": 1009,
+      "source_row": 1,
+      "english": "Transplant",
+      "spanish": "Transplante",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1010,
+      "source_row": 2,
+      "english": "Transvaginal Ultrasound",
+      "spanish": "Ultrasonido Transvaginal",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1011,
+      "source_row": 3,
+      "english": "Twilight Anesthesia",
+      "spanish": "Cedacion consciente",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1012,
+      "source_row": 4,
+      "english": "Ultrasound",
+      "spanish": "Ultrasonido",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1013,
+      "source_row": 6,
+      "english": "Urine Test",
+      "spanish": "Prueba de orina",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1014,
+      "source_row": 7,
+      "english": "Uroculture/ Urine Culture",
+      "spanish": "Urocultivo/ cultivo de orina",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1015,
+      "source_row": 8,
+      "english": "Vaginal Douche",
+      "spanish": "Lavado / ducha vaginal",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1016,
+      "source_row": 9,
+      "english": "Vaginoplasty",
+      "spanish": "Vaginoplastía",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1017,
+      "source_row": 10,
+      "english": "Vital signs check",
+      "spanish": "Revisión de Signos Vitales",
+      "category": "Signos vitales"
+    },
+    {
+      "id": 1018,
+      "source_row": 11,
+      "english": "Wound Debridement",
+      "spanish": "Desbridamiento de heridas",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1019,
+      "source_row": 13,
+      "english": "Aid Button",
+      "spanish": "Botón de ayuda",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1020,
+      "source_row": 14,
+      "english": "Artificial Nipple",
+      "spanish": "Pezón artificial",
+      "category": "Maternidad y pediatría"
+    },
+    {
+      "id": 1021,
+      "source_row": 16,
+      "english": "Baby car seat",
+      "spanish": "Asiento de seguridad para bebés",
+      "category": "Maternidad y pediatría"
+    },
+    {
+      "id": 1022,
+      "source_row": 17,
+      "english": "Bandage",
+      "spanish": "Vendaje",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1023,
+      "source_row": 18,
+      "english": "Bassinet",
+      "spanish": "Moises, cargador para bebé",
+      "category": "Maternidad y pediatría"
+    },
+    {
+      "id": 1024,
+      "source_row": 19,
+      "english": "Bedside Commode",
+      "spanish": "Retrete portátil",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1025,
+      "source_row": 20,
+      "english": "Blood pressure cuff",
+      "spanish": "Manga para tomar la presión arterial",
+      "category": "Signos vitales"
+    },
+    {
+      "id": 1026,
+      "source_row": 21,
+      "english": "Body lotion",
+      "spanish": "Crema Corporal",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1027,
+      "source_row": 22,
+      "english": "Booklet / handbook",
+      "spanish": "Folleto / Manual",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1028,
+      "source_row": 23,
+      "english": "Boot (medical supply)",
+      "spanish": "Bota",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1029,
+      "source_row": 24,
+      "english": "Brace",
+      "spanish": "Abrazadera",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1030,
+      "source_row": 26,
+      "english": "Bulb Syringe",
+      "spanish": "Succionador nasal",
+      "category": "Maternidad y pediatría"
+    },
+    {
+      "id": 1031,
+      "source_row": 27,
+      "english": "Cane",
+      "spanish": "Bastón",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1032,
+      "source_row": 28,
+      "english": "Cast",
+      "spanish": "Yeso",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1033,
+      "source_row": 29,
+      "english": "Catheter",
+      "spanish": "Catéter",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1034,
+      "source_row": 30,
+      "english": "Clamps",
+      "spanish": "Ganchos/ pinzas/ prensador",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1035,
+      "source_row": 31,
+      "english": "Clips",
+      "spanish": "Sujetadores",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1036,
+      "source_row": 32,
+      "english": "Coil (vascular)",
+      "spanish": "Espiral (vascular)",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1037,
+      "source_row": 33,
+      "english": "Colostomy bags",
+      "spanish": "Bolsas para colostomía",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1038,
+      "source_row": 34,
+      "english": "Compression Stockings",
+      "spanish": "Medias de compresión",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1039,
+      "source_row": 35,
+      "english": "Condom",
+      "spanish": "Preservativo",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1040,
+      "source_row": 36,
+      "english": "Container / cup (for samples)",
+      "spanish": "Recipiente",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1041,
+      "source_row": 37,
+      "english": "Contraceptive Implant",
+      "spanish": "Implante Anticonceptivo",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1042,
+      "source_row": 38,
+      "english": "Contraceptives",
+      "spanish": "Anticonceptivos",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1043,
+      "source_row": 39,
+      "english": "Cotton balls",
+      "spanish": "Algodones",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1044,
+      "source_row": 40,
+      "english": "Cotton Swab/ Q-tip",
+      "spanish": "Isopo",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1045,
+      "source_row": 41,
+      "english": "Cough drops/ Lozenges",
+      "spanish": "Caramelos o pastillas para la tos",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 1046,
+      "source_row": 42,
+      "english": "Cream",
+      "spanish": "Crema",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 1047,
+      "source_row": 43,
+      "english": "Crib",
+      "spanish": "Cuna",
+      "category": "Maternidad y pediatría"
+    },
+    {
+      "id": 1048,
+      "source_row": 44,
+      "english": "Crutches",
+      "spanish": "Muletas",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1049,
+      "source_row": 46,
+      "english": "Defibrillator",
+      "spanish": "Desfibrilador",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1050,
+      "source_row": 47,
+      "english": "Deodorant",
+      "spanish": "Desodorante",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1051,
+      "source_row": 48,
+      "english": "Dressing (for wound)",
+      "spanish": "Apósito",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1052,
+      "source_row": 49,
+      "english": "Ear plugs",
+      "spanish": "Tapones antiruido para los oídos",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1053,
+      "source_row": 50,
+      "english": "Ear tubes",
+      "spanish": "Tubos auditivos",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1054,
+      "source_row": 51,
+      "english": "Electrode",
+      "spanish": "Electrodo",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1055,
+      "source_row": 52,
+      "english": "Examination Table",
+      "spanish": "Mesa para examinar",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1056,
+      "source_row": 53,
+      "english": "First aid kit",
+      "spanish": "Estuche para primeros auxilios",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1057,
+      "source_row": 54,
+      "english": "Fistula",
+      "spanish": "Fístula",
+      "category": "Condiciones"
+    },
+    {
+      "id": 1058,
+      "source_row": 55,
+      "english": "Floss",
+      "spanish": "Hilo dental",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1059,
+      "source_row": 56,
+      "english": "Foam",
+      "spanish": "Espuma / esponja",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1060,
+      "source_row": 57,
+      "english": "Foley Catheter",
+      "spanish": "Catéter de Foley / Sonda Urinaria",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1061,
+      "source_row": 58,
+      "english": "Forceps",
+      "spanish": "Pinzas / tenaza",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1062,
+      "source_row": 59,
+      "english": "Gauze",
+      "spanish": "Gaza",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1063,
+      "source_row": 60,
+      "english": "Gloves",
+      "spanish": "Guantes",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1064,
+      "source_row": 61,
+      "english": "Glucose Monitor/ Glucometer",
+      "spanish": "Glucómetro",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1065,
+      "source_row": 62,
+      "english": "Gown",
+      "spanish": "Bata",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1066,
+      "source_row": 63,
+      "english": "Handheld portable device",
+      "spanish": "Dispositivo portátil manual",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1067,
+      "source_row": 64,
+      "english": "Hand Sanitizer",
+      "spanish": "Gel desinfectante de manos",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1068,
+      "source_row": 66,
+      "english": "Hearing aid",
+      "spanish": "Aparato o dispositivo auditivo",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1069,
+      "source_row": 67,
+      "english": "Holter Monitor",
+      "spanish": "Monitor Holter",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1070,
+      "source_row": 68,
+      "english": "Hot compress",
+      "spanish": "Compresa Caliente",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1071,
+      "source_row": 69,
+      "english": "Humidifier",
+      "spanish": "Humidificador",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1072,
+      "source_row": 70,
+      "english": "Hydrogen Peroxide",
+      "spanish": "Agua oxigenada",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1073,
+      "source_row": 71,
+      "english": "Ice Pack",
+      "spanish": "Compresa fría",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1074,
+      "source_row": 72,
+      "english": "Immunization Chart/ Records",
+      "spanish": "Expediente, Registro de Vacunas",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1075,
+      "source_row": 73,
+      "english": "Incentive Spirometer",
+      "spanish": "Espirômetro Incentivo",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1076,
+      "source_row": 74,
+      "english": "Incubator (isolette)",
+      "spanish": "Incubadora",
+      "category": "Maternidad y pediatría"
+    },
+    {
+      "id": 1077,
+      "source_row": 75,
+      "english": "Iodine",
+      "spanish": "Yodo",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1078,
+      "source_row": 76,
+      "english": "IV Fluids",
+      "spanish": "Líquidos intravenosos",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1079,
+      "source_row": 77,
+      "english": "Lancets",
+      "spanish": "Lancetas",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1080,
+      "source_row": 78,
+      "english": "Log / Diary",
+      "spanish": "Bitácora, registro, diario",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1081,
+      "source_row": 79,
+      "english": "Lube",
+      "spanish": "Lubricante",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1082,
+      "source_row": 80,
+      "english": "Magnifying glass",
+      "spanish": "Lupa",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1083,
+      "source_row": 81,
+      "english": "Mask",
+      "spanish": "Mascarilla",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1084,
+      "source_row": 82,
+      "english": "Mattress",
+      "spanish": "Colchón",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1085,
+      "source_row": 84,
+      "english": "Menstrual pad",
+      "spanish": "Toalla sanitaria",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1086,
+      "source_row": 85,
+      "english": "Metal plate",
+      "spanish": "Placa metálica",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1087,
+      "source_row": 86,
+      "english": "Microscope",
+      "spanish": "Microscopio",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1088,
+      "source_row": 87,
+      "english": "Monitor",
+      "spanish": "Monitor",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1089,
+      "source_row": 88,
+      "english": "Moisturizing lotion",
+      "spanish": "Crema humectante",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1090,
+      "source_row": 89,
+      "english": "Mouthwash",
+      "spanish": "Enjuague bucal",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1091,
+      "source_row": 90,
+      "english": "Nail clipper",
+      "spanish": "Cortauñas",
+      "category": "Cuidado domiciliario"
+    },
+    {
+      "id": 1092,
+      "source_row": 91,
+      "english": "Nails",
+      "spanish": "Clavos/uñas",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1093,
+      "source_row": 92,
+      "english": "Nasal Spray",
+      "spanish": "Atomizador nasal",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 1094,
+      "source_row": 93,
+      "english": "Nebulizer",
+      "spanish": "Nebulizador",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1095,
+      "source_row": 94,
+      "english": "Neck Brace/ Neck immobilizer",
+      "spanish": "Collarín / Collar Cervical/ Inmovilizador de cuello",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1096,
+      "source_row": 95,
+      "english": "NG Tube",
+      "spanish": "Sonda Naso-gástrica",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1097,
+      "source_row": 96,
+      "english": "Ointment",
+      "spanish": "Ungüento",
+      "category": "Medicamentos"
+    },
+    {
+      "id": 1098,
+      "source_row": 97,
+      "english": "Orthopedic shoes",
+      "spanish": "Zapatos ortopédicos",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1099,
+      "source_row": 98,
+      "english": "Otoscope",
+      "spanish": "Otoscopio",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1100,
+      "source_row": 99,
+      "english": "Outpatient Procedure",
+      "spanish": "Procedimiento Ambulatorio (Same day)",
+      "category": "Procedimientos"
+    },
+    {
+      "id": 1101,
+      "source_row": 100,
+      "english": "Oximeter",
+      "spanish": "Oxímetro",
+      "category": "Signos vitales"
+    },
+    {
+      "id": 1102,
+      "source_row": 101,
+      "english": "Oxygen Tank",
+      "spanish": "Tanque de oxígeno",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1103,
+      "source_row": 102,
+      "english": "Pacemaker",
+      "spanish": "Marcapasos",
+      "category": "Atención médica"
+    },
+    {
+      "id": 1104,
+      "source_row": 103,
+      "english": "Pacifier",
+      "spanish": "Entretenedor o chupete para bebés",
+      "category": "Maternidad y pediatría"
+    },
+    {
+      "id": 1105,
+      "source_row": 104,
+      "english": "Prenatal Vitamins",
+      "spanish": "Vitaminas Prenatales",
+      "category": "Maternidad y pediatría"
+    }
+  ]
+}

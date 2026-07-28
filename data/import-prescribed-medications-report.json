@@ -1,0 +1,434 @@
+{
+  "import_date": "2026-07-27",
+  "source": "Most Common Prescribed Medications — Interactive Contact Center (PDF proporcionado por el usuario)",
+  "source_pdf": "docs/sources/most-common-prescribed-medications.pdf",
+  "source_rows": 57,
+  "records_before": 866,
+  "new_records_added": 58,
+  "records_updated_without_duplication": [],
+  "duplicates_skipped": [],
+  "records_after": 924,
+  "id_range_added": [
+    868,
+    925
+  ],
+  "normalizations": [
+    "La fila 47 (Pravastatin/Simvastatin) se dividió en dos fichas independientes para facilitar la búsqueda.",
+    "Pravacho se conservó como forma de la fuente y se normalizó la marca a Pravachol.",
+    "Metropolol se conservó como forma de la fuente y se normalizó el término a Metoprolol.",
+    "Insulin Determir se conservó como forma de la fuente y se normalizó a Insulin detemir.",
+    "Amplodipina se normalizó a amlodipino; amlodipina se conservó como variante.",
+    "Azitromacina se normalizó a azitromicina.",
+    "Cetrizina se normalizó a cetirizina.",
+    "Las marcas comerciales se integraron como sinónimos de búsqueda, no como términos duplicados.",
+    "Los 57 renglones del PDF se preservaron en data/most-common-prescribed-medications-source.csv."
+  ],
+  "added": [
+    {
+      "id": 868,
+      "source_row": 1,
+      "english": "Acetaminophen",
+      "spanish": "Acetaminofén",
+      "brand_names": "Tylenol"
+    },
+    {
+      "id": 869,
+      "source_row": 2,
+      "english": "Albuterol",
+      "spanish": "Albuterol",
+      "brand_names": "Ventolin"
+    },
+    {
+      "id": 870,
+      "source_row": 3,
+      "english": "Allopurinol",
+      "spanish": "Alopurinol",
+      "brand_names": "Zyloprim"
+    },
+    {
+      "id": 871,
+      "source_row": 4,
+      "english": "Alprazolam",
+      "spanish": "Alprazolam",
+      "brand_names": "Xanax"
+    },
+    {
+      "id": 872,
+      "source_row": 5,
+      "english": "Amlodipine",
+      "spanish": "Amlodipino",
+      "brand_names": "Norvasc"
+    },
+    {
+      "id": 873,
+      "source_row": 6,
+      "english": "Amoxicillin",
+      "spanish": "Amoxicilina",
+      "brand_names": "Amoxil"
+    },
+    {
+      "id": 874,
+      "source_row": 7,
+      "english": "Amoxicillin and clavulanate potassium extended-release",
+      "spanish": "Amoxicilina y clavulanato de potasio de liberación prolongada",
+      "brand_names": "Amoxicillin/Potassium Clavulanate ER; Augmentin XR; amoxicillin-clavulanate"
+    },
+    {
+      "id": 875,
+      "source_row": 8,
+      "english": "Amphetamine/dextroamphetamine",
+      "spanish": "Anfetamina/dextroanfetamina",
+      "brand_names": "Adderall; mixed amphetamine salts"
+    },
+    {
+      "id": 876,
+      "source_row": 9,
+      "english": "Atenolol",
+      "spanish": "Atenolol",
+      "brand_names": "Tenormin"
+    },
+    {
+      "id": 877,
+      "source_row": 10,
+      "english": "Atorvastatin",
+      "spanish": "Atorvastatina",
+      "brand_names": "Lipitor"
+    },
+    {
+      "id": 878,
+      "source_row": 11,
+      "english": "Azithromycin",
+      "spanish": "Azitromicina",
+      "brand_names": "Zithromax; Z-Pak"
+    },
+    {
+      "id": 879,
+      "source_row": 12,
+      "english": "Bupropion",
+      "spanish": "Bupropión",
+      "brand_names": "Wellbutrin; Zyban"
+    },
+    {
+      "id": 880,
+      "source_row": 13,
+      "english": "Carvedilol",
+      "spanish": "Carvedilol",
+      "brand_names": "Coreg"
+    },
+    {
+      "id": 881,
+      "source_row": 14,
+      "english": "Cetirizine",
+      "spanish": "Cetirizina",
+      "brand_names": "Zyrtec"
+    },
+    {
+      "id": 882,
+      "source_row": 15,
+      "english": "Citalopram",
+      "spanish": "Citalopram",
+      "brand_names": "Celexa"
+    },
+    {
+      "id": 883,
+      "source_row": 16,
+      "english": "Clopidogrel",
+      "spanish": "Clopidogrel",
+      "brand_names": "Plavix"
+    },
+    {
+      "id": 884,
+      "source_row": 17,
+      "english": "Cyclobenzaprine",
+      "spanish": "Ciclobenzaprina",
+      "brand_names": "Flexeril"
+    },
+    {
+      "id": 885,
+      "source_row": 18,
+      "english": "Duloxetine",
+      "spanish": "Duloxetina",
+      "brand_names": "Cymbalta"
+    },
+    {
+      "id": 886,
+      "source_row": 19,
+      "english": "Escitalopram",
+      "spanish": "Escitalopram",
+      "brand_names": "Lexapro"
+    },
+    {
+      "id": 887,
+      "source_row": 20,
+      "english": "Fenofibrate",
+      "spanish": "Fenofibrato",
+      "brand_names": "Tricor; Triglide; Lipidil"
+    },
+    {
+      "id": 888,
+      "source_row": 21,
+      "english": "Fexofenadine",
+      "spanish": "Fexofenadina",
+      "brand_names": "Allegra"
+    },
+    {
+      "id": 889,
+      "source_row": 22,
+      "english": "Fluoxetine",
+      "spanish": "Fluoxetina",
+      "brand_names": "Prozac"
+    },
+    {
+      "id": 890,
+      "source_row": 23,
+      "english": "Fluticasone",
+      "spanish": "Fluticasona",
+      "brand_names": "Flonase; Flovent"
+    },
+    {
+      "id": 891,
+      "source_row": 24,
+      "english": "Furosemide",
+      "spanish": "Furosemida",
+      "brand_names": "Lasix; water pill"
+    },
+    {
+      "id": 892,
+      "source_row": 25,
+      "english": "Gabapentin",
+      "spanish": "Gabapentina",
+      "brand_names": "Neurontin; Gralise; Horizant"
+    },
+    {
+      "id": 893,
+      "source_row": 26,
+      "english": "Glipizide",
+      "spanish": "Glipizida",
+      "brand_names": "Glucotrol"
+    },
+    {
+      "id": 894,
+      "source_row": 27,
+      "english": "Hydrochlorothiazide",
+      "spanish": "Hidroclorotiazida",
+      "brand_names": "Microzide; HCTZ; water pill"
+    },
+    {
+      "id": 895,
+      "source_row": 28,
+      "english": "Hydrocodone and acetaminophen",
+      "spanish": "Hidrocodona y acetaminofén",
+      "brand_names": "Lortab; hydrocodone/APAP"
+    },
+    {
+      "id": 896,
+      "source_row": 29,
+      "english": "Ibuprofen",
+      "spanish": "Ibuprofeno",
+      "brand_names": "Advil; Motrin"
+    },
+    {
+      "id": 897,
+      "source_row": 30,
+      "english": "Insulin aspart (rapid-acting insulin)",
+      "spanish": "Insulina aspart (insulina de acción rápida)",
+      "brand_names": "NovoLog; NovoRapid"
+    },
+    {
+      "id": 898,
+      "source_row": 31,
+      "english": "Insulin detemir (long-acting insulin)",
+      "spanish": "Insulina detemir (insulina de acción prolongada)",
+      "brand_names": "Levemir; insulin Determir"
+    },
+    {
+      "id": 899,
+      "source_row": 32,
+      "english": "Insulin glargine (long-acting insulin)",
+      "spanish": "Insulina glargina (insulina de acción prolongada)",
+      "brand_names": "Lantus"
+    },
+    {
+      "id": 900,
+      "source_row": 33,
+      "english": "Insulin lispro (rapid-acting insulin)",
+      "spanish": "Insulina lispro (insulina de acción rápida)",
+      "brand_names": "Humalog"
+    },
+    {
+      "id": 901,
+      "source_row": 34,
+      "english": "Levothyroxine",
+      "spanish": "Levotiroxina",
+      "brand_names": "Synthroid"
+    },
+    {
+      "id": 902,
+      "source_row": 35,
+      "english": "Lisinopril",
+      "spanish": "Lisinopril",
+      "brand_names": "Prinivil; Zestril"
+    },
+    {
+      "id": 903,
+      "source_row": 36,
+      "english": "Losartan",
+      "spanish": "Losartán",
+      "brand_names": "Cozaar"
+    },
+    {
+      "id": 904,
+      "source_row": 37,
+      "english": "Meloxicam",
+      "spanish": "Meloxicam",
+      "brand_names": "Mobic"
+    },
+    {
+      "id": 905,
+      "source_row": 38,
+      "english": "Metformin",
+      "spanish": "Metformina",
+      "brand_names": "Glucophage"
+    },
+    {
+      "id": 906,
+      "source_row": 39,
+      "english": "Methylprednisolone",
+      "spanish": "Metilprednisolona",
+      "brand_names": "Medrol"
+    },
+    {
+      "id": 907,
+      "source_row": 40,
+      "english": "Metoprolol",
+      "spanish": "Metoprolol",
+      "brand_names": "Lopressor; Toprol-XL; Metropolol"
+    },
+    {
+      "id": 908,
+      "source_row": 41,
+      "english": "Montelukast",
+      "spanish": "Montelukast",
+      "brand_names": "Singulair"
+    },
+    {
+      "id": 909,
+      "source_row": 42,
+      "english": "Naproxen",
+      "spanish": "Naproxeno",
+      "brand_names": "Aleve; Naprosyn"
+    },
+    {
+      "id": 910,
+      "source_row": 43,
+      "english": "Omeprazole",
+      "spanish": "Omeprazol",
+      "brand_names": "Prilosec"
+    },
+    {
+      "id": 911,
+      "source_row": 44,
+      "english": "Pantoprazole",
+      "spanish": "Pantoprazol",
+      "brand_names": "Protonix"
+    },
+    {
+      "id": 912,
+      "source_row": 45,
+      "english": "Potassium chloride",
+      "spanish": "Cloruro de potasio",
+      "brand_names": "Klor-Con; KCl"
+    },
+    {
+      "id": 913,
+      "source_row": 46,
+      "english": "Prednisone",
+      "spanish": "Prednisona",
+      "brand_names": "Deltasone"
+    },
+    {
+      "id": 914,
+      "source_row": 47,
+      "english": "Pravastatin",
+      "spanish": "Pravastatina",
+      "brand_names": "Pravachol; Pravacho"
+    },
+    {
+      "id": 915,
+      "source_row": 47,
+      "english": "Simvastatin",
+      "spanish": "Simvastatina",
+      "brand_names": "Zocor"
+    },
+    {
+      "id": 916,
+      "source_row": 48,
+      "english": "Rosuvastatin",
+      "spanish": "Rosuvastatina",
+      "brand_names": "Crestor"
+    },
+    {
+      "id": 917,
+      "source_row": 49,
+      "english": "Sertraline",
+      "spanish": "Sertralina",
+      "brand_names": "Zoloft"
+    },
+    {
+      "id": 918,
+      "source_row": 50,
+      "english": "Sitagliptin",
+      "spanish": "Sitagliptina",
+      "brand_names": "Januvia"
+    },
+    {
+      "id": 919,
+      "source_row": 51,
+      "english": "Tadalafil",
+      "spanish": "Tadalafilo",
+      "brand_names": "Cialis"
+    },
+    {
+      "id": 920,
+      "source_row": 52,
+      "english": "Tamsulosin",
+      "spanish": "Tamsulosina",
+      "brand_names": "Flomax"
+    },
+    {
+      "id": 921,
+      "source_row": 53,
+      "english": "Tramadol",
+      "spanish": "Tramadol",
+      "brand_names": "Ultram"
+    },
+    {
+      "id": 922,
+      "source_row": 54,
+      "english": "Trazodone",
+      "spanish": "Trazodona",
+      "brand_names": "Oleptro; Desyrel"
+    },
+    {
+      "id": 923,
+      "source_row": 55,
+      "english": "Venlafaxine",
+      "spanish": "Venlafaxina",
+      "brand_names": "Effexor"
+    },
+    {
+      "id": 924,
+      "source_row": 56,
+      "english": "Warfarin",
+      "spanish": "Warfarina",
+      "brand_names": "Coumadin; Jantoven"
+    },
+    {
+      "id": 925,
+      "source_row": 57,
+      "english": "Zolpidem",
+      "spanish": "Zolpidem",
+      "brand_names": "Ambien"
+    }
+  ]
+}

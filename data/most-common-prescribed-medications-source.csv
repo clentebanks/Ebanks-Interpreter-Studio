@@ -1,0 +1,58 @@
+source_row,drug_name_english,spanish,most_common_brand_name,use_english,normalized_records
+1,Acetaminophen,Acetaminofen,Tylenol,"Used to treat mild to moderate pain and to treat moderate to severe pain in conjunction with opiates, or to reduce fever.",Acetaminophen
+2,Albuterol,Albuterol,Ventolin,"It is used to treat or prevent bronchospasm, or narrowing of the airways in the lungs, in people with asthma or certain types of chronic obstructive pulmonary disease (COPD). It is also used to prevent exercise-induced bronchospasm.",Albuterol
+3,Allopurinol,Alopurinol,Zyloprim,Reduces the production of uric acid in the body. Uric acid buildup can lead to gout or kidney stones.,Allopurinol
+4,Alprazolam,Alprazolam,Xanax,"It is used to treat anxiety disorders, panic disorders, and anxiety caused by depression.",Alprazolam
+5,Amlodipine,Amplodipina,Norvasc,Used to treat high blood pressure and coronary artery disease.,Amlodipine
+6,Amoxicillin,Amoxicilina,Amoxil,Used to treat many types of infections caused by bacteria.,Amoxicillin
+7,Amoxicillin/Potassium Clavulanate ER,Amoxicilina / Acido Clavulánico,Augmentin XR,Helps prevent certain bacteria from becoming resistant to amoxicillin.,Amoxicillin and clavulanate potassium extended-release
+8,Amphetamine/Dextroamphetamine,Anfetamina/Dextroanfetamina,Adderall,Used to treat narcolepsy and attention deficit and hyperactivity disorder.,Amphetamine/dextroamphetamine
+9,Atenolol,Atenolol,Tenormin,Used primarily to treat cardiovascular diseases.,Atenolol
+10,Atorvastatin,Atorvastatina,Lipitor,Used to lower cholesterol levels and the prevent cardiovascular diseases.,Atorvastatin
+11,Azithromycin,Azitromacina,Zithromax,"It is used to treat many different types of infections caused by bacteria, such as respiratory infections, skin infections, ear infections, eye infections, and sexually transmitted diseases.",Azithromycin
+12,Bupropion,Bupropion,Wellbutrin,"It’s an antidepressant medication that treats major depressive disorder (MDD), seasonal affective disorder (SAD), and it’s used to help people quit smoking.",Bupropion
+13,Carvedilol,Carvedilol,Coreg,Used to treat heart failure and hypertension (high blood pressure). It is also used after a heart attack that has caused the heart to not pump as well as before.,Carvedilol
+14,Cetirizine,Cetrizina,Zyrtec,"Used to treat cold or allergy symptoms such as sneezing, itching, watery eyes, or runny nose.",Cetirizine
+15,Citalopram,Citalopram,Celexa,It’s a prescription medicine used to treat depression. It’s also used to treat major depressive disorder (MDD).,Citalopram
+16,Clopidogrel,Clopidogrel,Plavix,"Used to lower your risk of having a stroke, blood clot, or serious heart problem after you’ve had a heart attack, severe chest pain, or circulation problems.",Clopidogrel
+17,Cyclobenzaprine,Ciclobenzaprina,Flexeril,It’s a muscle relaxant.,Cyclobenzaprine
+18,Duloxetine,Duloxetina,Cymbalta,"Used to treat major depressive disorder in adults. It is also used to treat general anxiety disorder in adults and children who are at least 7 years old. Also used in adults to treat nerve pain caused by diabetes (diabetic neuropathy), or chronic muscle or joint pain (such as low back pain and osteoarthritis pain).",Duloxetine
+19,Escitalopram,Escitalopram,Lexapro,It is used to treat major depressive disorder in adults and adolescents at least 12 years old.,Escitalopram
+20,Fenofibrate,Fenofibrato,"Tricor, Triglide, Lipidil",Used to lower high cholesterol and high triglyceride (fatty acid) levels in the blood.,Fenofibrate
+21,Fexofenadine,Fexofenadina,Allegra,Used to treat the symptoms of seasonal allergies (hay fever).,Fexofenadine
+22,Fluoxetine,Fluoxetina,Prozac,"It is used to treat major depressive disorder, bulimia nervosa, obsessive-compulsive disorder, panic disorder, and premenstrual dysphoric disorder (PMDD).",Fluoxetine
+23,Fluticasone,Fluticasona,"Flonase, Flovent",Used to prevent asthma attacks in adults and children.,Fluticasone
+24,Furosemide,Furosemida,Lasix,"It is used to treat fluid retention in people with congestive heart failure, liver disease, or kidney disorder.",Furosemide
+25,Gabapentin,Gabapentina,"Neurontin, Gralise, Horizant","Used to treat partial seizures, nerve pain from shingles and restless leg syndrome.",Gabapentin
+26,Glipizide,Glipizida,Glucotrol,It is used to improve blood sugar control in adults with type 2 diabetes mellitus.,Glipizide
+27,Hydrochlorothiazide,Hidroclorotiazida,Microzide,"A water pill used that helps prevent the body from absorbing too much salt, which can cause fluid retention.",Hydrochlorothiazide
+28,Hydrocodone and Acetaminophen,Hidrocodona con Acetaminofen,Lortab,Used to relieve moderate to moderately severe pain.,Hydrocodone and acetaminophen
+29,Ibuprofen,Ibuprofeno,"Advil, Motrin",Used to reduce fever and treat pain or inflammation caused by many conditions.,Ibuprofen
+30,Insulin Aspart (rapid-acting insulin),Insulina Aspart (insulina de acción rápida),NovoLog,Rapid-acting insulins are usually taken just before or with a meal. They act very quickly to minimize the rise in blood sugar that follows a meal.,Insulin aspart (rapid-acting insulin)
+31,Insulin Determir (long-acting insulin),Insulin Determir (insulina de acción prolongada),Levemir,"Long-acting insulin is a type of insulin that gives a slow, steady release of insulin that helps control blood sugar between meals and overnight.",Insulin detemir (long-acting insulin)
+32,Insulin Glargine (long-acting insulin),Insulina glargina (insulina de acción prolongada),Lantus,"Long-acting insulin is a type of insulin that gives a slow, steady release of insulin that helps control blood sugar between meals and overnight.",Insulin glargine (long-acting insulin)
+33,Insulin Lispro (rapid-acting insulin),Insulina Lispro (insulina de acción rápida),Humalog,Rapid-acting insulins are usually taken just before or with a meal. They act very quickly to minimize the rise in blood sugar that follows a meal.,Insulin lispro (rapid-acting insulin)
+34,Levothyroxine,Levotiroxina,Synthroid,Used to treat hypothyroidism (low thyroid hormone). This medicine is given when the thyroid does not produce enough of this hormone on its own.,Levothyroxine
+35,Lisinopril,Lisinopril,Prinivil,"Used to treat high blood pressure in adults. Also used to treat congestive heart failure, or to improve survival after a heart attack.",Lisinopril
+36,Losartan,Losartan,Cozaar,Used to treat high blood pressure. It is also used to lower the risk of stroke in certain people with heart disease. Also used to slow long-term kidney damage in people with type 2 diabetes who also have high blood pressure.,Losartan
+37,Meloxicam,Meloxicam,Mobic,Used to treat pain or inflammation caused by rheumatoid arthritis and osteoarthritis. Meloxicam is also used to treat juvenile rheumatoid arthritis in children who are at least 2 years old.,Meloxicam
+38,Metformin,Metformina,Glucophage,"Lowers the amount of glucose absorbed from intestines, decreasing how much glucose is made in the liver and improving insulin sensitivity.",Metformin
+39,Methylprednisolone,Metilprednisolona,Medrol,"Used to treat many different inflammatory conditions such as arthritis, lupus, psoriasis, ulcerative colitis, allergic disorders, gland (endocrine) disorders, and conditions that affect the skin, eyes, lungs, stomach, nervous system, or blood cells.",Methylprednisolone
+40,Metropolol,Metropolol,Lopressor,"Reduces the amount of work the heart has to do and the amount of blood the heart pumps out, thereby reducing the demand for oxygen and lowering blood pressure.",Metoprolol
+41,Montelukast,Montelukast,Singulair,Used to prevent asthma attacks. Also used to prevent exercise-induced bronchoconstriction (narrowing of the air passages in the lungs) and to treat symptoms of seasonal or year-round.,Montelukast
+42,Naproxen,Naproxeno,Aleve,"Used to treat pain or inflammation caused by conditions such as arthritis, tendinitis, bursitis, gout, or menstrual cramps. It can also be used to treat acute pain.",Naproxen
+43,Omeprazole,Omeprazol,Prilosec,"Used to treat excess stomach acid in conditions such as non-cancerous stomach ulcers, gastroesophageal reflux disease (GERD), active duodenal ulcer, Zollinger-Ellison syndrome and erosive esophagitis.",Omeprazole
+44,Pantoprazole,Pantoprazol,Protonix,"Used to treat erosive esophagitis (damage to the esophagus from stomach acid caused by gastroesophageal reflux disease, or GERD).",Pantoprazole
+45,Potassium Chloride,Cloruro de Potasio,Klor-Con,Used to prevent or to treat low blood levels of potassium (hypokalemia).,Potassium chloride
+46,Prednisone,Prednisona,Deltasone,"Used to treat allergic disorders, skin conditions, ulcerative colitis, Crohn’s disease, arthritis, lupus, psoriasis, asthma, chronic obstructive pulmonary disease (COPD) and many more conditions.",Prednisone
+47,Pravastatin/Simvastatin,Pravastatina/Simvastatina,Pravacho/Zocor,"Used to lower blood levels of “bad” cholesterol, to increase levels of “good” cholesterol, and to lower triglycerides. Also used to lower the risk of stroke, heart attack, and other heart complications in people with or without coronary heart disease or other risk factors.",Pravastatin; Simvastatin
+48,Rosuvastatin,Rosuvastatina,Crestor,"Used together with diet to lower blood levels of “bad” cholesterol, to increase levels of “good” cholesterol, and to lower triglycerides. Also used to treat hereditary types of high cholesterol.",Rosuvastatin
+49,Sertraline,Sertralina,Zoloft,"Used to treat major depressive disorder, obsessive-compulsive disorder (OCD), panic disorder, social anxiety disorder (SAD), and post-traumatic stress disorder (PTSD).",Sertraline
+50,Sitagliptin,Sitagliptina,Januvia,Helps control blood sugar levels. It works by regulating the levels of insulin your body produces after eating.,Sitagliptin
+51,Tadalafil,Tadalafilo,Cialis,Used to treat erectile dysfunction (impotence) and symptoms of benign prostatic hypertrophy (enlarged prostate).,Tadalafil
+52,Tamsulosin,Tamsulosina,Flomax,Used to improve urination in men with benign prostatic hyperplasia (enlarged prostate).,Tamsulosin
+53,Tramadol,Tramadol,Ultram,Used to treat moderate to severe pain that is not being relieved by other types of pain medicines.,Tramadol
+54,Trazodone,Trazodona,Oleptro,Used to treat major depressive disorder.,Trazodone
+55,Venlafaxine,Venlafaxina,Effexor,"Used to treat major depressive disorder, anxiety, and panic disorder.",Venlafaxine
+56,Warfarin,Warfarina,Coumadin,"Used to treat or prevent blood clots in veins or arteries, which can reduce the risk of stroke, heart attack, or other serious conditions.",Warfarin
+57,Zolpidem,Zolpidem,Ambien,Used to treat insomnia.,Zolpidem

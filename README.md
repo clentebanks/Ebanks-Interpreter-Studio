@@ -38,9 +38,15 @@ ebanks-interpreter-studio/
 │   └── styles.css
 ├── data/
 │   ├── terms.csv
-│   └── terms.json
+│   ├── terms.json
+│   ├── most-common-prescribed-medications-source.csv
+│   ├── medical-verbs-source.csv
+│   ├── import-prescribed-medications-report.json
+│   └── import-medical-verbs-report.json
 ├── docs/
-│   └── plantilla-terminologia-ebanks-interpreter-studio.xlsx
+│   ├── plantilla-terminologia-ebanks-interpreter-studio.xlsx
+│   └── sources/
+│       └── most-common-prescribed-medications.pdf
 ├── js/
 │   ├── app.js
 │   └── data.js
@@ -146,7 +152,51 @@ Los favoritos se almacenan únicamente en el navegador del usuario mediante `loc
 
 ## Estado del proyecto
 
-Esta versión contiene 84 fichas terminológicas: 12 registros iniciales y 72 términos adaptados de un glosario QA proporcionado para el proyecto. La meta es construir una colección bilingüe revisada para los principales contextos OPI, manteniendo el área médica como especialidad prioritaria.
+Esta versión contiene 1104 fichas terminológicas. La actualización **Supplies 1** procesó 104 pares bilingües: añadió 97 fichas, actualizó 5 registros existentes y consolidó 2 filas repetidas dentro de la propia lista. La meta es construir una colección bilingüe revisada para los principales contextos OPI, manteniendo el área médica como especialidad prioritaria.
+
+## Importación Medical Acronyms
+
+La importación del 27 de julio de 2026 se documenta en:
+
+```text
+data/import-medical-acronyms-report.json
+```
+
+Los registros añadidos permanecen como **Borrador** y contenido **Demo** hasta completar revisión profesional. Se normalizaron siglas ambiguas o incorrectas, incluyendo ECG/EKG, PFO, DTaP/Tdap, CPAP y TMJ/TMD.
+
+## Importación de medicamentos recetados comunes
+
+La importación del 27 de julio de 2026 se documenta en:
+
+```text
+data/import-prescribed-medications-report.json
+data/most-common-prescribed-medications-source.csv
+docs/sources/most-common-prescribed-medications.pdf
+```
+
+Los 57 renglones del documento fuente generaron 58 fichas nuevas. Pravastatina y simvastatina se separaron para que cada medicamento tenga una ficha propia. Las marcas comerciales se añadieron como sinónimos de búsqueda. Todos los registros permanecen como **Borrador** y contenido **Demo** hasta completar revisión profesional.
+
+## Importación Medical Verbs
+
+La importación del 28 de julio de 2026 se documenta en:
+
+```text
+data/import-medical-verbs-report.json
+data/medical-verbs-source.csv
+```
+
+Se procesaron 95 pares bilingües. Se añadieron 83 fichas y se actualizaron 12 fichas existentes sin duplicarlas. Las formas originales se conservaron en el archivo fuente y como sinónimos o notas cuando fue necesario normalizar grafías como `Inject`, `Disinfect`, `Lose balance`, `Lose consciousness`, `Lie down`, `Miss a dose`, `Mix / stir` y `Overeat`. Todos los registros nuevos permanecen como **Borrador** y contenido **Demo** hasta completar revisión profesional.
+
+## Importación Supplies 1
+
+La importación del 28 de julio de 2026 se documenta en:
+
+```text
+data/import-supplies-1-report.json
+data/supplies-1-source.csv
+```
+
+Se procesaron 104 pares bilingües. Se añadieron 97 fichas, se actualizaron 5 fichas existentes sin duplicarlas y se consolidaron 2 filas repetidas dentro de la lista. Las expresiones originales permanecen registradas en el CSV fuente. No se realizó verificación médica externa; todos los registros nuevos permanecen como **Borrador** y contenido **Demo** hasta completar revisión profesional.
 
 ## Hoja de ruta
 

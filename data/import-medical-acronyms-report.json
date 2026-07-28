@@ -1,0 +1,418 @@
+{
+  "import_date": "2026-07-27",
+  "source": "Medical Acronyms supplied by the user",
+  "records_before": 805,
+  "new_records_added": 62,
+  "records_updated": [
+    {
+      "id": 3,
+      "abbreviation": "CBC",
+      "action": "Actualizado, no duplicado."
+    }
+  ],
+  "duplicates_removed": [
+    {
+      "id": 65,
+      "english": "social (SSN)",
+      "reason": "Duplicado de SSN; se conserva el ID 63."
+    }
+  ],
+  "records_after": 866,
+  "id_range_added": [
+    806,
+    867
+  ],
+  "normalizations": [
+    "CBC was updated instead of duplicated.",
+    "ECG and EKG were consolidated into one electrocardiogram record.",
+    "ECG was corrected from echocardiogram to electrocardiogram.",
+    "FOP was normalized to the standard English acronym PFO.",
+    "DPT/T-DAP was normalized to DTaP / Tdap.",
+    "TMJ was defined as the joint; TMD is the disorder.",
+    "CPAP was translated with positive airway pressure.",
+    "The existing duplicate SSN record 65 was removed and scenario references were redirected to ID 63."
+  ],
+  "added": [
+    {
+      "id": 806,
+      "abbreviation": "ACL",
+      "english": "Anterior cruciate ligament",
+      "spanish": "Ligamento cruzado anterior"
+    },
+    {
+      "id": 807,
+      "abbreviation": "A1C",
+      "english": "Hemoglobin A1C test",
+      "spanish": "Prueba de hemoglobina A1c"
+    },
+    {
+      "id": 808,
+      "abbreviation": "ADD",
+      "english": "Attention-deficit disorder",
+      "spanish": "Trastorno por déficit de atención"
+    },
+    {
+      "id": 809,
+      "abbreviation": "ADHD",
+      "english": "Attention-deficit/hyperactivity disorder",
+      "spanish": "Trastorno por déficit de atención e hiperactividad"
+    },
+    {
+      "id": 810,
+      "abbreviation": "AIDS",
+      "english": "Acquired immunodeficiency syndrome",
+      "spanish": "Síndrome de inmunodeficiencia adquirida"
+    },
+    {
+      "id": 811,
+      "abbreviation": "BMI",
+      "english": "Body mass index",
+      "spanish": "Índice de masa corporal"
+    },
+    {
+      "id": 812,
+      "abbreviation": "CMV",
+      "english": "Cytomegalovirus",
+      "spanish": "Citomegalovirus"
+    },
+    {
+      "id": 813,
+      "abbreviation": "COPD",
+      "english": "Chronic obstructive pulmonary disease",
+      "spanish": "Enfermedad pulmonar obstructiva crónica"
+    },
+    {
+      "id": 814,
+      "abbreviation": "CPAP",
+      "english": "Continuous positive airway pressure",
+      "spanish": "Presión positiva continua en la vía respiratoria"
+    },
+    {
+      "id": 815,
+      "abbreviation": "D&C",
+      "english": "Dilation and curettage",
+      "spanish": "Dilatación y legrado"
+    },
+    {
+      "id": 816,
+      "abbreviation": "DNI",
+      "english": "Do not intubate",
+      "spanish": "Orden de no intubar"
+    },
+    {
+      "id": 817,
+      "abbreviation": "DNR",
+      "english": "Do not resuscitate",
+      "spanish": "Orden de no reanimar"
+    },
+    {
+      "id": 818,
+      "abbreviation": "DTaP / Tdap",
+      "english": "Diphtheria, tetanus, and pertussis vaccines",
+      "spanish": "Vacunas contra la difteria, el tétanos y la tosferina"
+    },
+    {
+      "id": 819,
+      "abbreviation": "DVT",
+      "english": "Deep vein thrombosis",
+      "spanish": "Trombosis venosa profunda"
+    },
+    {
+      "id": 820,
+      "abbreviation": "EBT card",
+      "english": "Electronic Benefit Transfer card",
+      "spanish": "Tarjeta de transferencia electrónica de beneficios"
+    },
+    {
+      "id": 821,
+      "abbreviation": "ECG / EKG",
+      "english": "Electrocardiogram",
+      "spanish": "Electrocardiograma"
+    },
+    {
+      "id": 822,
+      "abbreviation": "EEG",
+      "english": "Electroencephalogram",
+      "spanish": "Electroencefalograma"
+    },
+    {
+      "id": 823,
+      "abbreviation": "EGD",
+      "english": "Esophagogastroduodenoscopy",
+      "spanish": "Esofagogastroduodenoscopia"
+    },
+    {
+      "id": 824,
+      "abbreviation": "FMLA",
+      "english": "Family and Medical Leave Act",
+      "spanish": "Ley de Licencia Familiar y Médica"
+    },
+    {
+      "id": 825,
+      "abbreviation": "GERD",
+      "english": "Gastroesophageal reflux disease",
+      "spanish": "Enfermedad por reflujo gastroesofágico"
+    },
+    {
+      "id": 826,
+      "abbreviation": "HDL",
+      "english": "High-density lipoprotein",
+      "spanish": "Lipoproteína de alta densidad"
+    },
+    {
+      "id": 827,
+      "abbreviation": "HIV",
+      "english": "Human immunodeficiency virus",
+      "spanish": "Virus de la inmunodeficiencia humana"
+    },
+    {
+      "id": 828,
+      "abbreviation": "HMO",
+      "english": "Health maintenance organization",
+      "spanish": "Organización para el mantenimiento de la salud"
+    },
+    {
+      "id": 829,
+      "abbreviation": "HPV",
+      "english": "Human papillomavirus",
+      "spanish": "Virus del papiloma humano"
+    },
+    {
+      "id": 830,
+      "abbreviation": "ICU",
+      "english": "Intensive care unit",
+      "spanish": "Unidad de cuidados intensivos"
+    },
+    {
+      "id": 831,
+      "abbreviation": "IEP",
+      "english": "Individualized education program",
+      "spanish": "Programa de educación individualizado"
+    },
+    {
+      "id": 832,
+      "abbreviation": "INR",
+      "english": "International normalized ratio",
+      "spanish": "Razón internacional normalizada"
+    },
+    {
+      "id": 833,
+      "abbreviation": "IUD",
+      "english": "Intrauterine device",
+      "spanish": "Dispositivo intrauterino"
+    },
+    {
+      "id": 834,
+      "abbreviation": "LDL",
+      "english": "Low-density lipoprotein",
+      "spanish": "Lipoproteína de baja densidad"
+    },
+    {
+      "id": 835,
+      "abbreviation": "LEEP",
+      "english": "Loop electrosurgical excision procedure",
+      "spanish": "Procedimiento de escisión electroquirúrgica con asa"
+    },
+    {
+      "id": 836,
+      "abbreviation": "MMR",
+      "english": "Measles, mumps, and rubella vaccine",
+      "spanish": "Vacuna contra el sarampión, las paperas y la rubéola"
+    },
+    {
+      "id": 837,
+      "abbreviation": "MRI",
+      "english": "Magnetic resonance imaging",
+      "spanish": "Imagen por resonancia magnética"
+    },
+    {
+      "id": 838,
+      "abbreviation": "MRN",
+      "english": "Medical record number",
+      "spanish": "Número de expediente médico"
+    },
+    {
+      "id": 839,
+      "abbreviation": "MRSA",
+      "english": "Methicillin-resistant Staphylococcus aureus",
+      "spanish": "Staphylococcus aureus resistente a la meticilina"
+    },
+    {
+      "id": 840,
+      "abbreviation": "NICU",
+      "english": "Neonatal intensive care unit",
+      "spanish": "Unidad de cuidados intensivos neonatales"
+    },
+    {
+      "id": 841,
+      "abbreviation": "NP",
+      "english": "Nurse practitioner",
+      "spanish": "Enfermero/a practicante"
+    },
+    {
+      "id": 842,
+      "abbreviation": "OT / PT",
+      "english": "Occupational therapy / physical therapy",
+      "spanish": "Terapia ocupacional / fisioterapia"
+    },
+    {
+      "id": 843,
+      "abbreviation": "PET scan",
+      "english": "Positron emission tomography scan",
+      "spanish": "Tomografía por emisión de positrones"
+    },
+    {
+      "id": 844,
+      "abbreviation": "PICC",
+      "english": "Peripherally inserted central catheter",
+      "spanish": "Catéter central de inserción periférica"
+    },
+    {
+      "id": 845,
+      "abbreviation": "PKU",
+      "english": "Phenylketonuria",
+      "spanish": "Fenilcetonuria"
+    },
+    {
+      "id": 846,
+      "abbreviation": "PMS",
+      "english": "Premenstrual syndrome",
+      "spanish": "Síndrome premenstrual"
+    },
+    {
+      "id": 847,
+      "abbreviation": "PPO",
+      "english": "Preferred provider organization",
+      "spanish": "Organización de proveedores preferidos"
+    },
+    {
+      "id": 848,
+      "abbreviation": "PTSD",
+      "english": "Post-traumatic stress disorder",
+      "spanish": "Trastorno de estrés postraumático"
+    },
+    {
+      "id": 849,
+      "abbreviation": "RN",
+      "english": "Registered nurse",
+      "spanish": "Enfermero/a titulado/a o registrado/a"
+    },
+    {
+      "id": 850,
+      "abbreviation": "SIDS",
+      "english": "Sudden infant death syndrome",
+      "spanish": "Síndrome de muerte súbita del lactante"
+    },
+    {
+      "id": 851,
+      "abbreviation": "STD",
+      "english": "Sexually transmitted disease",
+      "spanish": "Enfermedad de transmisión sexual"
+    },
+    {
+      "id": 852,
+      "abbreviation": "TMJ",
+      "english": "Temporomandibular joint",
+      "spanish": "Articulación temporomandibular"
+    },
+    {
+      "id": 853,
+      "abbreviation": "UTI",
+      "english": "Urinary tract infection",
+      "spanish": "Infección de las vías urinarias"
+    },
+    {
+      "id": 854,
+      "abbreviation": "VRSA",
+      "english": "Vancomycin-resistant Staphylococcus aureus",
+      "spanish": "Staphylococcus aureus resistente a la vancomicina"
+    },
+    {
+      "id": 855,
+      "abbreviation": "PAT",
+      "english": "Preadmission testing",
+      "spanish": "Pruebas de preadmisión"
+    },
+    {
+      "id": 856,
+      "abbreviation": "PFO",
+      "english": "Patent foramen ovale",
+      "spanish": "Persistencia del agujero oval"
+    },
+    {
+      "id": 857,
+      "abbreviation": "Cath lab",
+      "english": "Cardiac catheterization laboratory",
+      "spanish": "Laboratorio de cateterismo cardíaco"
+    },
+    {
+      "id": 858,
+      "abbreviation": "FIT",
+      "english": "Fecal immunochemical test",
+      "spanish": "Prueba inmunoquímica fecal"
+    },
+    {
+      "id": 859,
+      "abbreviation": "AF / A-fib",
+      "english": "Atrial fibrillation",
+      "spanish": "Fibrilación auricular"
+    },
+    {
+      "id": 860,
+      "abbreviation": "HIPAA",
+      "english": "Health Insurance Portability and Accountability Act",
+      "spanish": "Ley de Responsabilidad y Portabilidad del Seguro Médico"
+    },
+    {
+      "id": 861,
+      "abbreviation": "RSV",
+      "english": "Respiratory syncytial virus",
+      "spanish": "Virus respiratorio sincitial"
+    },
+    {
+      "id": 862,
+      "abbreviation": "CGM",
+      "english": "Continuous glucose monitor",
+      "spanish": "Monitor continuo de glucosa"
+    },
+    {
+      "id": 863,
+      "abbreviation": "ERCP",
+      "english": "Endoscopic retrograde cholangiopancreatography",
+      "spanish": "Colangiopancreatografía retrógrada endoscópica"
+    },
+    {
+      "id": 864,
+      "abbreviation": "BPP",
+      "english": "Biophysical profile",
+      "spanish": "Perfil biofísico fetal"
+    },
+    {
+      "id": 865,
+      "abbreviation": "GC culture",
+      "english": "Gonorrhea culture",
+      "spanish": "Cultivo para detectar gonorrea"
+    },
+    {
+      "id": 866,
+      "abbreviation": "RALP",
+      "english": "Robot-assisted laparoscopic prostatectomy",
+      "spanish": "Prostatectomía laparoscópica asistida por robot"
+    },
+    {
+      "id": 867,
+      "abbreviation": "PEG tube",
+      "english": "Percutaneous endoscopic gastrostomy tube",
+      "spanish": "Sonda de gastrostomía endoscópica percutánea"
+    }
+  ],
+  "legacy_repairs": {
+    "source_url_markers_completed": 626,
+    "source_url_marker": "documento-local:finance-insurance-vocabulary-source",
+    "reason": "The existing imported vocabulary had source names but empty required source_url fields; local provenance markers were added so validation can complete."
+  },
+  "project_cleanup": [
+    "Removed an accidental duplicate copy of the full project nested inside css/.",
+    "Excluded corrupted .git metadata from the distributable ZIP; project source files remain intact."
+  ]
+}
