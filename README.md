@@ -34,6 +34,15 @@ El proyecto no necesita compilación, servidor, base de datos ni instalación de
 ```text
 ebanks-interpreter-studio/
 ├── index.html
+├── site.webmanifest
+├── assets/
+│   ├── favicon.ico
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── apple-touch-icon.png
+│   ├── icon-192.png
+│   ├── icon-512.png
+│   └── logo.png
 ├── css/
 │   └── styles.css
 ├── data/
@@ -150,6 +159,27 @@ Ebanks Interpreter Studio es una herramienta educativa y de apoyo terminológico
 
 Los favoritos se almacenan únicamente en el navegador del usuario mediante `localStorage`.
 
+## Metadatos, SEO y favicon
+
+La versión **1.5.1** incorpora metadatos técnicos y sociales en `index.html`:
+
+- título y descripción SEO;
+- autor, robots, color del navegador y URL canónica;
+- Open Graph para Facebook, LinkedIn y aplicaciones de mensajería;
+- Twitter Card;
+- datos estructurados `WebApplication` mediante JSON-LD;
+- favicon multirresolución y variantes PNG;
+- icono para iPhone/iPad;
+- manifiesto web para instalación y accesos directos.
+
+La URL canónica configurada es:
+
+```text
+https://clentebanks.github.io/Ebanks-Interpreter-Studio/
+```
+
+Si el sitio se publica en otro dominio, deben actualizarse `canonical`, `og:url`, `og:image`, `twitter:image` y el campo `url` del JSON-LD en `index.html`.
+
 ## Estado del proyecto
 
 Esta versión contiene 1104 fichas terminológicas. La actualización **Supplies 1** procesó 104 pares bilingües: añadió 97 fichas, actualizó 5 registros existentes y consolidó 2 filas repetidas dentro de la propia lista. La meta es construir una colección bilingüe revisada para los principales contextos OPI, manteniendo el área médica como especialidad prioritaria.
@@ -241,3 +271,8 @@ se configuran en `js/app.js`, dentro de la constante `scenarios`.
 
 Los escenarios se administran en `data/scenarios.json` y se cargan en el navegador mediante `js/scenarios-data.js`. Cada escenario contiene únicamente IDs de términos ya existentes en `data/terms.json`; no duplica ni crea vocabulario. Un mismo término puede pertenecer a varios escenarios. Si no existe vocabulario compatible, el arreglo `termIds` permanece vacío.
 
+
+
+### Corrección 1.5.1 del favicon
+
+Se eliminó el espacio transparente excesivo del icono, se amplió el emblema para ocupar el área visible del favicon y se añadió versionado en las referencias HTML para evitar que el navegador conserve la versión diminuta en caché.
