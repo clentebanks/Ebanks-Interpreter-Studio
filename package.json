@@ -1,12 +1,13 @@
 {
   "name": "ebanks-interpreter-studio",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "private": true,
   "scripts": {
     "generate": "node scripts/generate-terms.js",
     "terms": "node scripts/generate-terms.js",
     "validate": "node scripts/generate-terms.js",
     "validate:onboarding": "node scripts/validate-onboarding.js",
-    "check": "npm run validate:onboarding"
+    "check": "npm run validate:medical-glossary && npm run validate:onboarding",
+    "validate:medical-glossary": "node scripts/validate-medical-glossary.js"
   }
 }

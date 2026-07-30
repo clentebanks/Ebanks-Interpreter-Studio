@@ -51,15 +51,16 @@ ebanks-interpreter-studio/
 ├── data/
 │   ├── terms.csv
 │   ├── terms.json
-│   ├── most-common-prescribed-medications-source.csv
-│   ├── medical-verbs-source.csv
-│   ├── import-prescribed-medications-report.json
-│   └── import-medical-verbs-report.json
+│   ├── medical-glossary-source.csv
+│   ├── import-medical-glossary-report.json
+│   └── otros archivos fuente y reportes de importación
 ├── docs/
 │   ├── onboarding-tour.md
+│   ├── import-medical-glossary.md
 │   ├── plantilla-terminologia-ebanks-interpreter-studio.xlsx
 │   └── sources/
-│       └── most-common-prescribed-medications.pdf
+│       ├── most-common-prescribed-medications.pdf
+│       └── medical-glossary-interactive-contact-center.docx
 ├── js/
 │   ├── app.js
 │   ├── data.js
@@ -67,6 +68,7 @@ ebanks-interpreter-studio/
 │   └── scenarios-data.js
 ├── scripts/
 │   ├── generate-terms.js
+│   ├── validate-medical-glossary.js
 │   └── validate-onboarding.js
 ├── CHANGELOG.md
 ├── package.json
@@ -203,7 +205,7 @@ Los favoritos se almacenan únicamente en el navegador del usuario mediante `loc
 
 ## Metadatos, SEO y favicon
 
-La versión **1.6.0** conserva e integra los metadatos técnicos y sociales en `index.html`:
+La versión **1.7.0** conserva e integra los metadatos técnicos y sociales en `index.html`:
 
 - título y descripción SEO;
 - autor, robots, color del navegador y URL canónica;
@@ -224,7 +226,7 @@ Si el sitio se publica en otro dominio, deben actualizarse `canonical`, `og:url`
 
 ## Estado del proyecto
 
-Esta versión contiene 1104 fichas terminológicas. La actualización **Supplies 1** procesó 104 pares bilingües: añadió 97 fichas, actualizó 5 registros existentes y consolidó 2 filas repetidas dentro de la propia lista. La meta es construir una colección bilingüe revisada para los principales contextos OPI, manteniendo el área médica como especialidad prioritaria.
+Esta versión contiene **1,971 fichas terminológicas**. La importación **Medical Glossary** procesó 1,149 filas bilingües, añadió 867 fichas, actualizó 221 registros existentes y consolidó 61 filas repetidas dentro del documento fuente. La meta es construir una colección bilingüe revisada para los principales contextos OPI, manteniendo el área médica como especialidad prioritaria.
 
 ## Importación Medical Acronyms
 
@@ -269,6 +271,26 @@ data/supplies-1-source.csv
 ```
 
 Se procesaron 104 pares bilingües. Se añadieron 97 fichas, se actualizaron 5 fichas existentes sin duplicarlas y se consolidaron 2 filas repetidas dentro de la lista. Las expresiones originales permanecen registradas en el CSV fuente. No se realizó verificación médica externa; todos los registros nuevos permanecen como **Borrador** y contenido **Demo** hasta completar revisión profesional.
+
+
+## Importación Medical Glossary
+
+La importación del 30 de julio de 2026 se documenta en:
+
+```text
+docs/import-medical-glossary.md
+data/import-medical-glossary-report.json
+data/medical-glossary-source.csv
+docs/sources/medical-glossary-interactive-contact-center.docx
+```
+
+Se procesaron 1,149 filas bilingües distribuidas en 26 secciones. Tras consolidar términos repetidos, se añadieron 867 fichas nuevas y se actualizaron 221 fichas existentes sin duplicarlas. El proyecto quedó con 1,971 fichas. Todas las entradas nuevas permanecen como **Borrador** y contenido **Demo** hasta completar revisión terminológica profesional.
+
+Para validar la trazabilidad de esta importación ejecuta:
+
+```bash
+npm run validate:medical-glossary
+```
 
 ## Hoja de ruta
 
