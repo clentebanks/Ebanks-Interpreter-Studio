@@ -18,6 +18,8 @@ Plataforma bilingüe de terminología, consulta rápida y práctica para intérp
 - Lista personal de términos.
 - Tarjetas interactivas de práctica.
 - Diseño adaptable a computadoras, tabletas y teléfonos.
+- Tour guiado para usuarios que entran por primera vez.
+- Botón **Guía** para repetir el recorrido cuando sea necesario.
 
 ## Tecnologías
 
@@ -44,7 +46,8 @@ ebanks-interpreter-studio/
 │   ├── icon-512.png
 │   └── logo.png
 ├── css/
-│   └── styles.css
+│   ├── styles.css
+│   └── onboarding.css
 ├── data/
 │   ├── terms.csv
 │   ├── terms.json
@@ -53,14 +56,19 @@ ebanks-interpreter-studio/
 │   ├── import-prescribed-medications-report.json
 │   └── import-medical-verbs-report.json
 ├── docs/
+│   ├── onboarding-tour.md
 │   ├── plantilla-terminologia-ebanks-interpreter-studio.xlsx
 │   └── sources/
 │       └── most-common-prescribed-medications.pdf
 ├── js/
 │   ├── app.js
-│   └── data.js
+│   ├── data.js
+│   ├── onboarding.js
+│   └── scenarios-data.js
 ├── scripts/
-│   └── generate-terms.js
+│   ├── generate-terms.js
+│   └── validate-onboarding.js
+├── CHANGELOG.md
 ├── package.json
 └── README.md
 ```
@@ -72,6 +80,40 @@ ebanks-interpreter-studio/
 3. Utiliza el buscador para consultar términos en inglés, español o por abreviatura.
 
 También puedes publicar la carpeta directamente en Netlify, GitHub Pages u otro servicio de alojamiento estático.
+
+
+## Tour guiado para nuevos usuarios
+
+La versión **1.6.0** incorpora un recorrido interactivo que explica las funciones principales durante la primera visita. Incluye diez pasos para presentar navegación, búsqueda, categorías, resultados, fichas, escenarios, recursos, práctica y listas.
+
+El recorrido:
+
+- se muestra automáticamente una sola vez por navegador;
+- puede omitirse o cerrarse con `Esc`;
+- permite avanzar y retroceder;
+- se adapta a pantallas móviles;
+- puede repetirse con el botón **Guía**;
+- no modifica búsquedas, favoritos ni términos;
+- guarda únicamente su estado local mediante `localStorage`.
+
+La documentación completa se encuentra en:
+
+```text
+docs/onboarding-tour.md
+```
+
+Para validar su integración ejecuta:
+
+```bash
+npm run validate:onboarding
+```
+
+Para simular nuevamente una primera visita durante desarrollo:
+
+```javascript
+localStorage.removeItem("eis-onboarding:1.0.0");
+location.reload();
+```
 
 ## Sistema para agregar términos
 
@@ -161,7 +203,7 @@ Los favoritos se almacenan únicamente en el navegador del usuario mediante `loc
 
 ## Metadatos, SEO y favicon
 
-La versión **1.5.1** incorpora metadatos técnicos y sociales en `index.html`:
+La versión **1.6.0** conserva e integra los metadatos técnicos y sociales en `index.html`:
 
 - título y descripción SEO;
 - autor, robots, color del navegador y URL canónica;
